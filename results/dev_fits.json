@@ -1,0 +1,4389 @@
+{
+  "temperatures": {
+    "llada-8b-instruct|C0|0|na": {
+      "temperature": 1.7829784218092415,
+      "nll": 0.5611421513524346,
+      "n_dev": 360
+    },
+    "llada-8b-instruct|C1|128|1": {
+      "temperature": 3.031383655664117,
+      "nll": 0.6778996562689389,
+      "n_dev": 360
+    },
+    "llada-8b-instruct|C1|128|16": {
+      "temperature": 4.407439737058423,
+      "nll": 0.6869891288802362,
+      "n_dev": 360
+    },
+    "llada-8b-instruct|C1|128|4": {
+      "temperature": 3.4166631535709784,
+      "nll": 0.6922596933662793,
+      "n_dev": 360
+    },
+    "llada-8b-instruct|C1|32|1": {
+      "temperature": 2.223691654536378,
+      "nll": 0.6109634016753105,
+      "n_dev": 360
+    },
+    "llada-8b-instruct|C1|32|16": {
+      "temperature": 4.082045895272796,
+      "nll": 0.6226233379822217,
+      "n_dev": 360
+    },
+    "llada-8b-instruct|C1|32|4": {
+      "temperature": 3.233106750726233,
+      "nll": 0.6057009912019434,
+      "n_dev": 360
+    },
+    "llada-8b-instruct|C2|128|1": {
+      "temperature": 2.5217411512686625,
+      "nll": 0.6006035781749317,
+      "n_dev": 360
+    },
+    "llada-8b-instruct|C2|128|16": {
+      "temperature": 3.5123131039122186,
+      "nll": 0.6817171811873359,
+      "n_dev": 360
+    },
+    "llada-8b-instruct|C2|128|4": {
+      "temperature": 2.756375399135199,
+      "nll": 0.6280052585900041,
+      "n_dev": 360
+    },
+    "llada-8b-instruct|C2|32|1": {
+      "temperature": 2.1697807220963887,
+      "nll": 0.5979612245367308,
+      "n_dev": 360
+    },
+    "llada-8b-instruct|C2|32|16": {
+      "temperature": 3.2530049516472093,
+      "nll": 0.6280366962881024,
+      "n_dev": 360
+    },
+    "llada-8b-instruct|C2|32|4": {
+      "temperature": 2.994411932581313,
+      "nll": 0.624937417950113,
+      "n_dev": 360
+    },
+    "qwen3-8b|C0|0|na": {
+      "temperature": 5.616182885694961,
+      "nll": 0.5590540971917304,
+      "n_dev": 360
+    }
+  },
+  "model": "llada-8b-instruct",
+  "tau": {
+    "tau": 0.02040816326530612,
+    "mean_gap": 0.0045972222222222525,
+    "mean_nfe": 1.0458333333333332
+  },
+  "tau_temperature_scaled": {
+    "tau": 0.0,
+    "mean_gap": 0.0,
+    "mean_nfe": 1.0
+  },
+  "dev_curves": {
+    "arc_c": [
+      {
+        "accuracy": 0.81,
+        "ece": 0.10507832139730458,
+        "mean_nfe": 1.0,
+        "n": 100,
+        "tau": 0.0,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.81,
+        "gap": 0.0
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.10940840870141988,
+        "mean_nfe": 1.05,
+        "n": 100,
+        "tau": 0.02040816326530612,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8125,
+        "gap": -0.0024999999999999467
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.10940840870141988,
+        "mean_nfe": 1.05,
+        "n": 100,
+        "tau": 0.04081632653061224,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8125,
+        "gap": -0.0024999999999999467
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.10940840870141988,
+        "mean_nfe": 1.05,
+        "n": 100,
+        "tau": 0.061224489795918366,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8125,
+        "gap": -0.0024999999999999467
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.10592275023460387,
+        "mean_nfe": 1.27,
+        "n": 100,
+        "tau": 0.08163265306122448,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8235000000000001,
+        "gap": -0.0035000000000001696
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.10592275023460387,
+        "mean_nfe": 1.27,
+        "n": 100,
+        "tau": 0.1020408163265306,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8235000000000001,
+        "gap": -0.0035000000000001696
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.10592275023460387,
+        "mean_nfe": 1.27,
+        "n": 100,
+        "tau": 0.12244897959183673,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8235000000000001,
+        "gap": -0.0035000000000001696
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.1272469162940979,
+        "mean_nfe": 1.37,
+        "n": 100,
+        "tau": 0.14285714285714285,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8285,
+        "gap": -0.01849999999999996
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.11909880399703979,
+        "mean_nfe": 1.42,
+        "n": 100,
+        "tau": 0.16326530612244897,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.831,
+        "gap": -0.030999999999999917
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.12330776751041411,
+        "mean_nfe": 1.47,
+        "n": 100,
+        "tau": 0.18367346938775508,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8335,
+        "gap": -0.033499999999999974
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.12448109924793246,
+        "mean_nfe": 1.74,
+        "n": 100,
+        "tau": 0.2040816326530612,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.847,
+        "gap": -0.03699999999999992
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.11894974112510684,
+        "mean_nfe": 1.79,
+        "n": 100,
+        "tau": 0.22448979591836732,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8494999999999999,
+        "gap": -0.02949999999999997
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.12288513302803046,
+        "mean_nfe": 1.84,
+        "n": 100,
+        "tau": 0.24489795918367346,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.852,
+        "gap": -0.03200000000000003
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.12288513302803046,
+        "mean_nfe": 1.84,
+        "n": 100,
+        "tau": 0.26530612244897955,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.852,
+        "gap": -0.03200000000000003
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.12288513302803046,
+        "mean_nfe": 1.84,
+        "n": 100,
+        "tau": 0.2857142857142857,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.852,
+        "gap": -0.03200000000000003
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.12837969243526465,
+        "mean_nfe": 1.99,
+        "n": 100,
+        "tau": 0.3061224489795918,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8594999999999999,
+        "gap": -0.03949999999999998
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.12369563281536108,
+        "mean_nfe": 2.04,
+        "n": 100,
+        "tau": 0.32653061224489793,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8597333333333333,
+        "gap": -0.0397333333333334
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.12710868835449213,
+        "mean_nfe": 2.09,
+        "n": 100,
+        "tau": 0.3469387755102041,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8594,
+        "gap": -0.0394000000000001
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.12219875156879423,
+        "mean_nfe": 2.14,
+        "n": 100,
+        "tau": 0.36734693877551017,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8590666666666666,
+        "gap": -0.029066666666666685
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.12472611129283909,
+        "mean_nfe": 2.19,
+        "n": 100,
+        "tau": 0.3877551020408163,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8587333333333333,
+        "gap": -0.02873333333333339
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.12272501647472385,
+        "mean_nfe": 2.41,
+        "n": 100,
+        "tau": 0.4081632653061224,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8572666666666666,
+        "gap": -0.017266666666666652
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.12272501647472385,
+        "mean_nfe": 2.41,
+        "n": 100,
+        "tau": 0.42857142857142855,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8572666666666666,
+        "gap": -0.017266666666666652
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.1324608021974564,
+        "mean_nfe": 2.46,
+        "n": 100,
+        "tau": 0.44897959183673464,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8569333333333333,
+        "gap": -0.026933333333333365
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.13278027594089506,
+        "mean_nfe": 2.9,
+        "n": 100,
+        "tau": 0.4693877551020408,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.854,
+        "gap": -0.02400000000000002
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.13278027594089506,
+        "mean_nfe": 2.9,
+        "n": 100,
+        "tau": 0.4897959183673469,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.854,
+        "gap": -0.02400000000000002
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.13278027594089506,
+        "mean_nfe": 2.9,
+        "n": 100,
+        "tau": 0.5102040816326531,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.854,
+        "gap": -0.02400000000000002
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.13529097855091088,
+        "mean_nfe": 2.95,
+        "n": 100,
+        "tau": 0.5306122448979591,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8536666666666667,
+        "gap": -0.023666666666666725
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.13529097855091088,
+        "mean_nfe": 2.95,
+        "n": 100,
+        "tau": 0.5510204081632653,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8536666666666667,
+        "gap": -0.023666666666666725
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.1341363489627839,
+        "mean_nfe": 3.05,
+        "n": 100,
+        "tau": 0.5714285714285714,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.853,
+        "gap": -0.02300000000000002
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.13120726466178897,
+        "mean_nfe": 3.1,
+        "n": 100,
+        "tau": 0.5918367346938775,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8526666666666667,
+        "gap": -0.012666666666666715
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.13120726466178897,
+        "mean_nfe": 3.1,
+        "n": 100,
+        "tau": 0.6122448979591836,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8526666666666667,
+        "gap": -0.012666666666666715
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.12870341181755063,
+        "mean_nfe": 3.27,
+        "n": 100,
+        "tau": 0.6326530612244897,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8515333333333333,
+        "gap": -0.011533333333333284
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.1305672460794449,
+        "mean_nfe": 3.32,
+        "n": 100,
+        "tau": 0.6530612244897959,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8512,
+        "gap": -0.011199999999999988
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.1306971740722656,
+        "mean_nfe": 3.54,
+        "n": 100,
+        "tau": 0.673469387755102,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8497333333333333,
+        "gap": -0.009733333333333372
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.14258912026882176,
+        "mean_nfe": 3.59,
+        "n": 100,
+        "tau": 0.6938775510204082,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8493999999999999,
+        "gap": -0.019399999999999973
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.1460687661170959,
+        "mean_nfe": 3.69,
+        "n": 100,
+        "tau": 0.7142857142857142,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8487333333333333,
+        "gap": -0.01873333333333338
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.1460687661170959,
+        "mean_nfe": 3.69,
+        "n": 100,
+        "tau": 0.7346938775510203,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8487333333333333,
+        "gap": -0.01873333333333338
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.14737202465534216,
+        "mean_nfe": 3.91,
+        "n": 100,
+        "tau": 0.7551020408163265,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8472666666666666,
+        "gap": -0.017266666666666652
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.14881734013557443,
+        "mean_nfe": 3.96,
+        "n": 100,
+        "tau": 0.7755102040816326,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8469333333333333,
+        "gap": -0.016933333333333356
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.15154875576496124,
+        "mean_nfe": 4.18,
+        "n": 100,
+        "tau": 0.7959183673469387,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8454666666666667,
+        "gap": -0.01546666666666674
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.15129536271095273,
+        "mean_nfe": 4.35,
+        "n": 100,
+        "tau": 0.8163265306122448,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8443333333333334,
+        "gap": -0.004333333333333411
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.15129536271095273,
+        "mean_nfe": 4.35,
+        "n": 100,
+        "tau": 0.836734693877551,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8443333333333334,
+        "gap": -0.004333333333333411
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.1491139179468155,
+        "mean_nfe": 4.45,
+        "n": 100,
+        "tau": 0.8571428571428571,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8436666666666667,
+        "gap": -0.003666666666666707
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.1491139179468155,
+        "mean_nfe": 4.45,
+        "n": 100,
+        "tau": 0.8775510204081632,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8436666666666667,
+        "gap": -0.003666666666666707
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.1573983645439147,
+        "mean_nfe": 4.94,
+        "n": 100,
+        "tau": 0.8979591836734693,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8403999999999999,
+        "gap": -0.010399999999999965
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.16264877140522005,
+        "mean_nfe": 5.16,
+        "n": 100,
+        "tau": 0.9183673469387754,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8401333333333333,
+        "gap": -0.020133333333333336
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.1547002410888672,
+        "mean_nfe": 5.82,
+        "n": 100,
+        "tau": 0.9387755102040816,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8406833333333333,
+        "gap": -0.010683333333333378
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.15585166931152344,
+        "mean_nfe": 6.02,
+        "n": 100,
+        "tau": 0.9591836734693877,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8408499999999999,
+        "gap": -0.010849999999999915
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.15767407715320597,
+        "mean_nfe": 7.49,
+        "n": 100,
+        "tau": 0.9795918367346939,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8420749999999999,
+        "gap": -0.012074999999999947
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.18080893218517308,
+        "mean_nfe": 23.0,
+        "n": 100,
+        "tau": 1.0,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.85,
+        "gap": -0.04999999999999993
+      }
+    ],
+    "boolq": [
+      {
+        "accuracy": 0.78,
+        "ece": 0.13740503251552583,
+        "mean_nfe": 1.0,
+        "n": 100,
+        "tau": 0.0,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.78,
+        "gap": 0.0
+      },
+      {
+        "accuracy": 0.78,
+        "ece": 0.13740503251552583,
+        "mean_nfe": 1.0,
+        "n": 100,
+        "tau": 0.02040816326530612,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.78,
+        "gap": 0.0
+      },
+      {
+        "accuracy": 0.79,
+        "ece": 0.13164675831794742,
+        "mean_nfe": 1.05,
+        "n": 100,
+        "tau": 0.04081632653061224,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.7825,
+        "gap": 0.007500000000000062
+      },
+      {
+        "accuracy": 0.79,
+        "ece": 0.13164675831794742,
+        "mean_nfe": 1.05,
+        "n": 100,
+        "tau": 0.061224489795918366,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.7825,
+        "gap": 0.007500000000000062
+      },
+      {
+        "accuracy": 0.79,
+        "ece": 0.13164675831794742,
+        "mean_nfe": 1.05,
+        "n": 100,
+        "tau": 0.08163265306122448,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.7825,
+        "gap": 0.007500000000000062
+      },
+      {
+        "accuracy": 0.79,
+        "ece": 0.13603935420513155,
+        "mean_nfe": 1.27,
+        "n": 100,
+        "tau": 0.1020408163265306,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.7935,
+        "gap": -0.0034999999999999476
+      },
+      {
+        "accuracy": 0.79,
+        "ece": 0.13603935420513155,
+        "mean_nfe": 1.27,
+        "n": 100,
+        "tau": 0.12244897959183673,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.7935,
+        "gap": -0.0034999999999999476
+      },
+      {
+        "accuracy": 0.79,
+        "ece": 0.13603935420513155,
+        "mean_nfe": 1.27,
+        "n": 100,
+        "tau": 0.14285714285714285,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.7935,
+        "gap": -0.0034999999999999476
+      },
+      {
+        "accuracy": 0.79,
+        "ece": 0.13603935420513155,
+        "mean_nfe": 1.27,
+        "n": 100,
+        "tau": 0.16326530612244897,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.7935,
+        "gap": -0.0034999999999999476
+      },
+      {
+        "accuracy": 0.79,
+        "ece": 0.13603935420513155,
+        "mean_nfe": 1.27,
+        "n": 100,
+        "tau": 0.18367346938775508,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.7935,
+        "gap": -0.0034999999999999476
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.13006740868091587,
+        "mean_nfe": 1.32,
+        "n": 100,
+        "tau": 0.2040816326530612,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.796,
+        "gap": 0.0040000000000000036
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.13006740868091587,
+        "mean_nfe": 1.32,
+        "n": 100,
+        "tau": 0.22448979591836732,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.796,
+        "gap": 0.0040000000000000036
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.13006740868091587,
+        "mean_nfe": 1.32,
+        "n": 100,
+        "tau": 0.24489795918367346,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.796,
+        "gap": 0.0040000000000000036
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.13006740868091587,
+        "mean_nfe": 1.32,
+        "n": 100,
+        "tau": 0.26530612244897955,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.796,
+        "gap": 0.0040000000000000036
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.13006740868091587,
+        "mean_nfe": 1.32,
+        "n": 100,
+        "tau": 0.2857142857142857,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.796,
+        "gap": 0.0040000000000000036
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.13661859035491936,
+        "mean_nfe": 1.59,
+        "n": 100,
+        "tau": 0.3061224489795918,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8095,
+        "gap": -0.009499999999999953
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.13661859035491936,
+        "mean_nfe": 1.59,
+        "n": 100,
+        "tau": 0.32653061224489793,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8095,
+        "gap": -0.009499999999999953
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.13661859035491936,
+        "mean_nfe": 1.59,
+        "n": 100,
+        "tau": 0.3469387755102041,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8095,
+        "gap": -0.009499999999999953
+      },
+      {
+        "accuracy": 0.79,
+        "ece": 0.14971574664115908,
+        "mean_nfe": 1.64,
+        "n": 100,
+        "tau": 0.36734693877551017,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.812,
+        "gap": -0.02200000000000002
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.13867465913295748,
+        "mean_nfe": 1.79,
+        "n": 100,
+        "tau": 0.3877551020408163,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8194999999999999,
+        "gap": -0.009499999999999842
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.13867465913295748,
+        "mean_nfe": 1.79,
+        "n": 100,
+        "tau": 0.4081632653061224,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8194999999999999,
+        "gap": -0.009499999999999842
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.13867465913295748,
+        "mean_nfe": 1.79,
+        "n": 100,
+        "tau": 0.42857142857142855,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8194999999999999,
+        "gap": -0.009499999999999842
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.13992795228958133,
+        "mean_nfe": 1.84,
+        "n": 100,
+        "tau": 0.44897959183673464,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.822,
+        "gap": -0.0119999999999999
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.13254097104072574,
+        "mean_nfe": 1.89,
+        "n": 100,
+        "tau": 0.4693877551020408,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8245,
+        "gap": -0.0045000000000000595
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.13254097104072574,
+        "mean_nfe": 1.89,
+        "n": 100,
+        "tau": 0.4897959183673469,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8245,
+        "gap": -0.0045000000000000595
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.13254097104072574,
+        "mean_nfe": 1.89,
+        "n": 100,
+        "tau": 0.5102040816326531,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8245,
+        "gap": -0.0045000000000000595
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.13254097104072574,
+        "mean_nfe": 1.89,
+        "n": 100,
+        "tau": 0.5306122448979591,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8245,
+        "gap": -0.0045000000000000595
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.13251338005065916,
+        "mean_nfe": 2.11,
+        "n": 100,
+        "tau": 0.5510204081632653,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8296333333333332,
+        "gap": -0.009633333333333272
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.15465720534324653,
+        "mean_nfe": 2.21,
+        "n": 100,
+        "tau": 0.5714285714285714,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8293,
+        "gap": -0.019299999999999984
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.1520037311315537,
+        "mean_nfe": 2.26,
+        "n": 100,
+        "tau": 0.5918367346938775,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8291333333333333,
+        "gap": -0.019133333333333225
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.1498995280265808,
+        "mean_nfe": 2.48,
+        "n": 100,
+        "tau": 0.6122448979591836,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8283999999999999,
+        "gap": -0.01839999999999986
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.1498995280265808,
+        "mean_nfe": 2.48,
+        "n": 100,
+        "tau": 0.6326530612244897,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8283999999999999,
+        "gap": -0.01839999999999986
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.15124909102916714,
+        "mean_nfe": 2.53,
+        "n": 100,
+        "tau": 0.6530612244897959,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8282333333333333,
+        "gap": -0.018233333333333213
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.1538259911537171,
+        "mean_nfe": 3.12,
+        "n": 100,
+        "tau": 0.673469387755102,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8262666666666667,
+        "gap": -0.006266666666666754
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.15211612045764916,
+        "mean_nfe": 3.29,
+        "n": 100,
+        "tau": 0.6938775510204082,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8257,
+        "gap": -0.005700000000000038
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.15211612045764916,
+        "mean_nfe": 3.29,
+        "n": 100,
+        "tau": 0.7142857142857142,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8257,
+        "gap": -0.005700000000000038
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.15128716468811035,
+        "mean_nfe": 3.39,
+        "n": 100,
+        "tau": 0.7346938775510203,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8253666666666666,
+        "gap": -0.005366666666666631
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.16035998582839972,
+        "mean_nfe": 3.66,
+        "n": 100,
+        "tau": 0.7551020408163265,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8244666666666667,
+        "gap": -0.014466666666666628
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.15356763005256654,
+        "mean_nfe": 3.81,
+        "n": 100,
+        "tau": 0.7755102040816326,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8239666666666666,
+        "gap": -0.003966666666666674
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.15726929664611813,
+        "mean_nfe": 4.3,
+        "n": 100,
+        "tau": 0.7959183673469387,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8223333333333334,
+        "gap": -0.0023333333333334094
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.15909604609012606,
+        "mean_nfe": 4.4,
+        "n": 100,
+        "tau": 0.8163265306122448,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8220000000000001,
+        "gap": -0.002000000000000113
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.1616130715608596,
+        "mean_nfe": 4.72,
+        "n": 100,
+        "tau": 0.836734693877551,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8209333333333333,
+        "gap": -0.0009333333333333416
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.16403885543346405,
+        "mean_nfe": 4.99,
+        "n": 100,
+        "tau": 0.8571428571428571,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8200333333333333,
+        "gap": -3.333333333332966e-05
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.16368558824062351,
+        "mean_nfe": 5.21,
+        "n": 100,
+        "tau": 0.8775510204081632,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.820175,
+        "gap": -0.00017500000000003624
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.16396705269813538,
+        "mean_nfe": 5.55,
+        "n": 100,
+        "tau": 0.8979591836734693,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8204583333333333,
+        "gap": -0.00045833333333333837
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.15997454464435576,
+        "mean_nfe": 6.31,
+        "n": 100,
+        "tau": 0.9183673469387754,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8210916666666666,
+        "gap": 0.008908333333333407
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.16158055007457733,
+        "mean_nfe": 7.19,
+        "n": 100,
+        "tau": 0.9387755102040816,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.821825,
+        "gap": 0.008174999999999932
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.1620441204309463,
+        "mean_nfe": 7.58,
+        "n": 100,
+        "tau": 0.9591836734693877,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8221499999999999,
+        "gap": 0.007850000000000024
+      },
+      {
+        "accuracy": 0.85,
+        "ece": 0.14610700070858007,
+        "mean_nfe": 9.22,
+        "n": 100,
+        "tau": 0.9795918367346939,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8235166666666666,
+        "gap": 0.026483333333333414
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.20239806771278385,
+        "mean_nfe": 23.0,
+        "n": 100,
+        "tau": 1.0,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.83,
+        "gap": -0.029999999999999916
+      }
+    ],
+    "jagged": [
+      {
+        "accuracy": 0.6666666666666666,
+        "ece": 0.16093573421239854,
+        "mean_nfe": 1.0,
+        "n": 60,
+        "tau": 0.0,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.6666666666666666,
+        "gap": 0.0
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.14678941617409386,
+        "mean_nfe": 1.0833333333333333,
+        "n": 60,
+        "tau": 0.02040816326530612,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.6694444444444444,
+        "gap": 0.01388888888888895
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.14704876492420832,
+        "mean_nfe": 1.1666666666666667,
+        "n": 60,
+        "tau": 0.04081632653061224,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.6722222222222222,
+        "gap": 0.011111111111111183
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.15341286808252333,
+        "mean_nfe": 1.25,
+        "n": 60,
+        "tau": 0.061224489795918366,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.675,
+        "gap": 0.008333333333333304
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.14086890270312627,
+        "mean_nfe": 1.6166666666666667,
+        "n": 60,
+        "tau": 0.08163265306122448,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.6872222222222222,
+        "gap": -0.0038888888888888307
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.14086890270312627,
+        "mean_nfe": 1.6166666666666667,
+        "n": 60,
+        "tau": 0.1020408163265306,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.6872222222222222,
+        "gap": -0.0038888888888888307
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.14086890270312627,
+        "mean_nfe": 1.6166666666666667,
+        "n": 60,
+        "tau": 0.12244897959183673,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.6872222222222222,
+        "gap": -0.0038888888888888307
+      },
+      {
+        "accuracy": 0.7,
+        "ece": 0.13268406689167023,
+        "mean_nfe": 1.7,
+        "n": 60,
+        "tau": 0.14285714285714285,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.69,
+        "gap": 0.010000000000000009
+      },
+      {
+        "accuracy": 0.7,
+        "ece": 0.15895641048749287,
+        "mean_nfe": 1.9833333333333334,
+        "n": 60,
+        "tau": 0.16326530612244897,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.6994444444444444,
+        "gap": 0.0005555555555555314
+      },
+      {
+        "accuracy": 0.7,
+        "ece": 0.15895641048749287,
+        "mean_nfe": 1.9833333333333334,
+        "n": 60,
+        "tau": 0.18367346938775508,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.6994444444444444,
+        "gap": 0.0005555555555555314
+      },
+      {
+        "accuracy": 0.7,
+        "ece": 0.1636958549420039,
+        "mean_nfe": 2.15,
+        "n": 60,
+        "tau": 0.2040816326530612,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7016666666666667,
+        "gap": -0.0016666666666667052
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.19809447824954984,
+        "mean_nfe": 2.6,
+        "n": 60,
+        "tau": 0.22448979591836732,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7066666666666667,
+        "gap": -0.023333333333333317
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.1953930805126826,
+        "mean_nfe": 2.966666666666667,
+        "n": 60,
+        "tau": 0.24489795918367346,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7107407407407407,
+        "gap": -0.027407407407407325
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.18879494170347846,
+        "mean_nfe": 3.1333333333333333,
+        "n": 60,
+        "tau": 0.26530612244897955,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7125925925925926,
+        "gap": -0.029259259259259207
+      },
+      {
+        "accuracy": 0.6666666666666666,
+        "ece": 0.19881883263587952,
+        "mean_nfe": 3.4166666666666665,
+        "n": 60,
+        "tau": 0.2857142857142857,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7157407407407408,
+        "gap": -0.04907407407407416
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.24698316355546318,
+        "mean_nfe": 4.35,
+        "n": 60,
+        "tau": 0.3061224489795918,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.726111111111111,
+        "gap": -0.09277777777777774
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.25020613272984826,
+        "mean_nfe": 4.433333333333334,
+        "n": 60,
+        "tau": 0.32653061224489793,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.727037037037037,
+        "gap": -0.09370370370370373
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.2564167280991872,
+        "mean_nfe": 4.516666666666667,
+        "n": 60,
+        "tau": 0.3469387755102041,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7279629629629629,
+        "gap": -0.09462962962962962
+      },
+      {
+        "accuracy": 0.6166666666666667,
+        "ece": 0.27900668283303576,
+        "mean_nfe": 4.883333333333334,
+        "n": 60,
+        "tau": 0.36734693877551017,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.732037037037037,
+        "gap": -0.11537037037037035
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.2683987478415172,
+        "mean_nfe": 4.966666666666667,
+        "n": 60,
+        "tau": 0.3877551020408163,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7329629629629629,
+        "gap": -0.09962962962962962
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.27496869464715323,
+        "mean_nfe": 5.25,
+        "n": 60,
+        "tau": 0.4081632653061224,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.732986111111111,
+        "gap": -0.0996527777777777
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.27496869464715323,
+        "mean_nfe": 5.25,
+        "n": 60,
+        "tau": 0.42857142857142855,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.732986111111111,
+        "gap": -0.0996527777777777
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.27496869464715323,
+        "mean_nfe": 5.25,
+        "n": 60,
+        "tau": 0.44897959183673464,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.732986111111111,
+        "gap": -0.0996527777777777
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.27496869464715323,
+        "mean_nfe": 5.25,
+        "n": 60,
+        "tau": 0.4693877551020408,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.732986111111111,
+        "gap": -0.0996527777777777
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.2799583832422892,
+        "mean_nfe": 5.333333333333333,
+        "n": 60,
+        "tau": 0.4897959183673469,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7328703703703703,
+        "gap": -0.09953703703703698
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.28741756081581116,
+        "mean_nfe": 5.5,
+        "n": 60,
+        "tau": 0.5102040816326531,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7326388888888888,
+        "gap": -0.08263888888888882
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.28741756081581116,
+        "mean_nfe": 5.5,
+        "n": 60,
+        "tau": 0.5306122448979591,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7326388888888888,
+        "gap": -0.08263888888888882
+      },
+      {
+        "accuracy": 0.6666666666666666,
+        "ece": 0.27589869598547617,
+        "mean_nfe": 5.583333333333333,
+        "n": 60,
+        "tau": 0.5510204081632653,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7325231481481481,
+        "gap": -0.06585648148148149
+      },
+      {
+        "accuracy": 0.6666666666666666,
+        "ece": 0.27589869598547617,
+        "mean_nfe": 5.583333333333333,
+        "n": 60,
+        "tau": 0.5714285714285714,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7325231481481481,
+        "gap": -0.06585648148148149
+      },
+      {
+        "accuracy": 0.6666666666666666,
+        "ece": 0.2666253546873729,
+        "mean_nfe": 6.033333333333333,
+        "n": 60,
+        "tau": 0.5918367346938775,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.731898148148148,
+        "gap": -0.06523148148148139
+      },
+      {
+        "accuracy": 0.6666666666666666,
+        "ece": 0.2666253546873729,
+        "mean_nfe": 6.033333333333333,
+        "n": 60,
+        "tau": 0.6122448979591836,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.731898148148148,
+        "gap": -0.06523148148148139
+      },
+      {
+        "accuracy": 0.6666666666666666,
+        "ece": 0.2666253546873729,
+        "mean_nfe": 6.033333333333333,
+        "n": 60,
+        "tau": 0.6326530612244897,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.731898148148148,
+        "gap": -0.06523148148148139
+      },
+      {
+        "accuracy": 0.6666666666666666,
+        "ece": 0.26934601863225305,
+        "mean_nfe": 6.4,
+        "n": 60,
+        "tau": 0.6530612244897959,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7313888888888889,
+        "gap": -0.06472222222222224
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.294681802392006,
+        "mean_nfe": 7.216666666666667,
+        "n": 60,
+        "tau": 0.673469387755102,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7302546296296295,
+        "gap": -0.08025462962962948
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.294681802392006,
+        "mean_nfe": 7.216666666666667,
+        "n": 60,
+        "tau": 0.6938775510204082,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7302546296296295,
+        "gap": -0.08025462962962948
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.30154513915379844,
+        "mean_nfe": 8.15,
+        "n": 60,
+        "tau": 0.7142857142857142,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7289583333333333,
+        "gap": -0.07895833333333324
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.30844639738400775,
+        "mean_nfe": 8.683333333333334,
+        "n": 60,
+        "tau": 0.7346938775510203,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7282175925925926,
+        "gap": -0.07821759259259253
+      },
+      {
+        "accuracy": 0.6666666666666666,
+        "ece": 0.2985088805357615,
+        "mean_nfe": 8.933333333333334,
+        "n": 60,
+        "tau": 0.7551020408163265,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7278703703703704,
+        "gap": -0.06120370370370376
+      },
+      {
+        "accuracy": 0.6666666666666666,
+        "ece": 0.3030523439248403,
+        "mean_nfe": 9.383333333333333,
+        "n": 60,
+        "tau": 0.7755102040816326,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7272453703703703,
+        "gap": -0.06057870370370366
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.29433975418408714,
+        "mean_nfe": 10.2,
+        "n": 60,
+        "tau": 0.7959183673469387,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.726111111111111,
+        "gap": -0.04277777777777769
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.29433975418408714,
+        "mean_nfe": 10.2,
+        "n": 60,
+        "tau": 0.8163265306122448,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.726111111111111,
+        "gap": -0.04277777777777769
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.29433975418408714,
+        "mean_nfe": 10.2,
+        "n": 60,
+        "tau": 0.836734693877551,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.726111111111111,
+        "gap": -0.04277777777777769
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.2972399959961573,
+        "mean_nfe": 10.65,
+        "n": 60,
+        "tau": 0.8571428571428571,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.725486111111111,
+        "gap": -0.042152777777777706
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.2995203047990798,
+        "mean_nfe": 11.016666666666667,
+        "n": 60,
+        "tau": 0.8775510204081632,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7249768518518518,
+        "gap": -0.04164351851851844
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.3008232514063517,
+        "mean_nfe": 11.1,
+        "n": 60,
+        "tau": 0.8979591836734693,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7248611111111112,
+        "gap": -0.04152777777777783
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.3008232514063517,
+        "mean_nfe": 11.1,
+        "n": 60,
+        "tau": 0.9183673469387754,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7248611111111112,
+        "gap": -0.04152777777777783
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.3008232514063517,
+        "mean_nfe": 11.1,
+        "n": 60,
+        "tau": 0.9387755102040816,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7248611111111112,
+        "gap": -0.04152777777777783
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.30285602311293286,
+        "mean_nfe": 11.716666666666667,
+        "n": 60,
+        "tau": 0.9591836734693877,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7240046296296296,
+        "gap": -0.04067129629629629
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.3035245716571807,
+        "mean_nfe": 12.25,
+        "n": 60,
+        "tau": 0.9795918367346939,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7232638888888889,
+        "gap": -0.03993055555555558
+      },
+      {
+        "accuracy": 0.55,
+        "ece": 0.4319503208001454,
+        "mean_nfe": 23.0,
+        "n": 60,
+        "tau": 1.0,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7166666666666667,
+        "gap": -0.16666666666666663
+      }
+    ],
+    "strategyqa": [
+      {
+        "accuracy": 0.61,
+        "ece": 0.12875935733318328,
+        "mean_nfe": 1.0,
+        "n": 100,
+        "tau": 0.0,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.61,
+        "gap": 0.0
+      },
+      {
+        "accuracy": 0.62,
+        "ece": 0.12153144180774689,
+        "mean_nfe": 1.05,
+        "n": 100,
+        "tau": 0.02040816326530612,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.613,
+        "gap": 0.007000000000000006
+      },
+      {
+        "accuracy": 0.61,
+        "ece": 0.1563708645105362,
+        "mean_nfe": 1.57,
+        "n": 100,
+        "tau": 0.04081632653061224,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6442000000000001,
+        "gap": -0.03420000000000012
+      },
+      {
+        "accuracy": 0.61,
+        "ece": 0.1563708645105362,
+        "mean_nfe": 1.57,
+        "n": 100,
+        "tau": 0.061224489795918366,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6442000000000001,
+        "gap": -0.03420000000000012
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.1389837288856506,
+        "mean_nfe": 1.99,
+        "n": 100,
+        "tau": 0.08163265306122448,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6694,
+        "gap": -0.02939999999999998
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.1389837288856506,
+        "mean_nfe": 1.99,
+        "n": 100,
+        "tau": 0.1020408163265306,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6694,
+        "gap": -0.02939999999999998
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.1389837288856506,
+        "mean_nfe": 1.99,
+        "n": 100,
+        "tau": 0.12244897959183673,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6694,
+        "gap": -0.02939999999999998
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.13464499771595,
+        "mean_nfe": 2.36,
+        "n": 100,
+        "tau": 0.14285714285714285,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6676,
+        "gap": -0.00759999999999994
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.14538250148296356,
+        "mean_nfe": 2.68,
+        "n": 100,
+        "tau": 0.16326530612244897,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6654666666666667,
+        "gap": -0.00546666666666662
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.14538250148296356,
+        "mean_nfe": 2.68,
+        "n": 100,
+        "tau": 0.18367346938775508,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6654666666666667,
+        "gap": -0.00546666666666662
+      },
+      {
+        "accuracy": 0.68,
+        "ece": 0.13340809047222135,
+        "mean_nfe": 2.78,
+        "n": 100,
+        "tau": 0.2040816326530612,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6648000000000001,
+        "gap": 0.015199999999999991
+      },
+      {
+        "accuracy": 0.68,
+        "ece": 0.17311364531517026,
+        "mean_nfe": 3.27,
+        "n": 100,
+        "tau": 0.22448979591836732,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6615333333333333,
+        "gap": 0.018466666666666742
+      },
+      {
+        "accuracy": 0.68,
+        "ece": 0.17311364531517026,
+        "mean_nfe": 3.27,
+        "n": 100,
+        "tau": 0.24489795918367346,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6615333333333333,
+        "gap": 0.018466666666666742
+      },
+      {
+        "accuracy": 0.68,
+        "ece": 0.16316685557365418,
+        "mean_nfe": 3.37,
+        "n": 100,
+        "tau": 0.26530612244897955,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6608666666666667,
+        "gap": 0.019133333333333336
+      },
+      {
+        "accuracy": 0.67,
+        "ece": 0.20430341303348543,
+        "mean_nfe": 4.08,
+        "n": 100,
+        "tau": 0.2857142857142857,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6561333333333333,
+        "gap": 0.013866666666666694
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.19973363101482394,
+        "mean_nfe": 4.33,
+        "n": 100,
+        "tau": 0.3061224489795918,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6544666666666666,
+        "gap": 0.00553333333333339
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.19973363101482394,
+        "mean_nfe": 4.33,
+        "n": 100,
+        "tau": 0.32653061224489793,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6544666666666666,
+        "gap": 0.00553333333333339
+      },
+      {
+        "accuracy": 0.67,
+        "ece": 0.195837699174881,
+        "mean_nfe": 4.55,
+        "n": 100,
+        "tau": 0.3469387755102041,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.653,
+        "gap": 0.017000000000000015
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.21150287330150605,
+        "mean_nfe": 4.65,
+        "n": 100,
+        "tau": 0.36734693877551017,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6523333333333333,
+        "gap": 0.0076666666666667105
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.22273392438888545,
+        "mean_nfe": 4.85,
+        "n": 100,
+        "tau": 0.3877551020408163,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.651,
+        "gap": 0.009000000000000008
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.22273392438888545,
+        "mean_nfe": 4.85,
+        "n": 100,
+        "tau": 0.4081632653061224,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.651,
+        "gap": 0.009000000000000008
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.23503865063190454,
+        "mean_nfe": 5.44,
+        "n": 100,
+        "tau": 0.42857142857142855,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6514666666666666,
+        "gap": 0.008533333333333393
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.2557519060373306,
+        "mean_nfe": 5.64,
+        "n": 100,
+        "tau": 0.44897959183673464,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6521333333333333,
+        "gap": -0.0021333333333333204
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.2713680881261825,
+        "mean_nfe": 5.84,
+        "n": 100,
+        "tau": 0.4693877551020408,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6528,
+        "gap": -0.012800000000000034
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.27546269357204434,
+        "mean_nfe": 6.06,
+        "n": 100,
+        "tau": 0.4897959183673469,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6535333333333333,
+        "gap": -0.013533333333333286
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.2789749443531036,
+        "mean_nfe": 6.16,
+        "n": 100,
+        "tau": 0.5102040816326531,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6538666666666667,
+        "gap": -0.013866666666666694
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.2789749443531036,
+        "mean_nfe": 6.16,
+        "n": 100,
+        "tau": 0.5306122448979591,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6538666666666667,
+        "gap": -0.013866666666666694
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.28351654529571524,
+        "mean_nfe": 6.38,
+        "n": 100,
+        "tau": 0.5510204081632653,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6546000000000001,
+        "gap": -0.014600000000000057
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.2876001763343811,
+        "mean_nfe": 6.65,
+        "n": 100,
+        "tau": 0.5714285714285714,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6555,
+        "gap": -0.015499999999999958
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.28973035216331483,
+        "mean_nfe": 7.04,
+        "n": 100,
+        "tau": 0.5918367346938775,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6567999999999999,
+        "gap": -0.016799999999999926
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.2937897616624832,
+        "mean_nfe": 7.24,
+        "n": 100,
+        "tau": 0.6122448979591836,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6574666666666668,
+        "gap": -0.01746666666666674
+      },
+      {
+        "accuracy": 0.63,
+        "ece": 0.3075737780332566,
+        "mean_nfe": 7.9,
+        "n": 100,
+        "tau": 0.6326530612244897,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6596666666666666,
+        "gap": -0.02966666666666662
+      },
+      {
+        "accuracy": 0.63,
+        "ece": 0.3092385697364807,
+        "mean_nfe": 7.95,
+        "n": 100,
+        "tau": 0.6530612244897959,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6598333333333334,
+        "gap": -0.02983333333333338
+      },
+      {
+        "accuracy": 0.63,
+        "ece": 0.3113239109516144,
+        "mean_nfe": 8.34,
+        "n": 100,
+        "tau": 0.673469387755102,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6611333333333334,
+        "gap": -0.031133333333333346
+      },
+      {
+        "accuracy": 0.63,
+        "ece": 0.3113239109516144,
+        "mean_nfe": 8.34,
+        "n": 100,
+        "tau": 0.6938775510204082,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6611333333333334,
+        "gap": -0.031133333333333346
+      },
+      {
+        "accuracy": 0.63,
+        "ece": 0.3136668831110001,
+        "mean_nfe": 8.9,
+        "n": 100,
+        "tau": 0.7142857142857142,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.663,
+        "gap": -0.03300000000000003
+      },
+      {
+        "accuracy": 0.63,
+        "ece": 0.3288376069068908,
+        "mean_nfe": 9.68,
+        "n": 100,
+        "tau": 0.7346938775510203,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6656,
+        "gap": -0.035599999999999965
+      },
+      {
+        "accuracy": 0.63,
+        "ece": 0.3288376069068908,
+        "mean_nfe": 9.68,
+        "n": 100,
+        "tau": 0.7551020408163265,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6656,
+        "gap": -0.035599999999999965
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.3201844656467438,
+        "mean_nfe": 9.95,
+        "n": 100,
+        "tau": 0.7755102040816326,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6665,
+        "gap": -0.026499999999999968
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.3224896919727326,
+        "mean_nfe": 10.22,
+        "n": 100,
+        "tau": 0.7959183673469387,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6674,
+        "gap": -0.02739999999999998
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.3236214739084244,
+        "mean_nfe": 10.56,
+        "n": 100,
+        "tau": 0.8163265306122448,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6685333333333333,
+        "gap": -0.0285333333333333
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.312880089879036,
+        "mean_nfe": 10.73,
+        "n": 100,
+        "tau": 0.836734693877551,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6691,
+        "gap": -0.029100000000000015
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.3150112736225128,
+        "mean_nfe": 11.12,
+        "n": 100,
+        "tau": 0.8571428571428571,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6703999999999999,
+        "gap": -0.03039999999999987
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.3176168775558471,
+        "mean_nfe": 11.78,
+        "n": 100,
+        "tau": 0.8775510204081632,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6726,
+        "gap": -0.03259999999999996
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.3142009538412094,
+        "mean_nfe": 12.9,
+        "n": 100,
+        "tau": 0.8979591836734693,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6763333333333333,
+        "gap": -0.02633333333333332
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.30710894048213955,
+        "mean_nfe": 13.78,
+        "n": 100,
+        "tau": 0.9183673469387754,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6792666666666667,
+        "gap": -0.019266666666666654
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.3186752873659134,
+        "mean_nfe": 14.15,
+        "n": 100,
+        "tau": 0.9387755102040816,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6804999999999999,
+        "gap": -0.03049999999999986
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.3050843358039856,
+        "mean_nfe": 15.05,
+        "n": 100,
+        "tau": 0.9591836734693877,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6834999999999999,
+        "gap": -0.023499999999999854
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.3057199233770371,
+        "mean_nfe": 16.32,
+        "n": 100,
+        "tau": 0.9795918367346939,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6877333333333332,
+        "gap": -0.027733333333333166
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.2946237224340439,
+        "mean_nfe": 23.0,
+        "n": 100,
+        "tau": 1.0,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.69,
+        "gap": -0.029999999999999916
+      }
+    ]
+  },
+  "dev_curves_temperature_scaled": {
+    "arc_c": [
+      {
+        "accuracy": 0.81,
+        "ece": 0.09095527762601505,
+        "mean_nfe": 1.0,
+        "n": 100,
+        "tau": 0.0,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.81,
+        "gap": 0.0
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.0842777938649941,
+        "mean_nfe": 1.05,
+        "n": 100,
+        "tau": 0.02040816326530612,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8125,
+        "gap": -0.0024999999999999467
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.08488064166151905,
+        "mean_nfe": 1.27,
+        "n": 100,
+        "tau": 0.04081632653061224,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8235000000000001,
+        "gap": -0.0035000000000001696
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.08488064166151905,
+        "mean_nfe": 1.27,
+        "n": 100,
+        "tau": 0.061224489795918366,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8235000000000001,
+        "gap": -0.0035000000000001696
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.0745089485756312,
+        "mean_nfe": 1.42,
+        "n": 100,
+        "tau": 0.08163265306122448,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.831,
+        "gap": -0.030999999999999917
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.07009055647727985,
+        "mean_nfe": 1.74,
+        "n": 100,
+        "tau": 0.1020408163265306,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.847,
+        "gap": -0.03699999999999992
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.06395215778389317,
+        "mean_nfe": 1.79,
+        "n": 100,
+        "tau": 0.12244897959183673,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8494999999999999,
+        "gap": -0.02949999999999997
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.0772759405220795,
+        "mean_nfe": 1.84,
+        "n": 100,
+        "tau": 0.14285714285714285,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.852,
+        "gap": -0.03200000000000003
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.08730198240602513,
+        "mean_nfe": 2.16,
+        "n": 100,
+        "tau": 0.16326530612244897,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8589333333333333,
+        "gap": -0.028933333333333366
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.08097576989082793,
+        "mean_nfe": 2.31,
+        "n": 100,
+        "tau": 0.18367346938775508,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8579333333333332,
+        "gap": -0.017933333333333246
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.07937317211167046,
+        "mean_nfe": 2.58,
+        "n": 100,
+        "tau": 0.2040816326530612,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8561333333333333,
+        "gap": -0.016133333333333333
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.07937317211167046,
+        "mean_nfe": 2.58,
+        "n": 100,
+        "tau": 0.22448979591836732,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8561333333333333,
+        "gap": -0.016133333333333333
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.08934354529165699,
+        "mean_nfe": 3.24,
+        "n": 100,
+        "tau": 0.24489795918367346,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8517333333333332,
+        "gap": -0.02173333333333327
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.07590551643643825,
+        "mean_nfe": 3.58,
+        "n": 100,
+        "tau": 0.26530612244897955,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8494666666666666,
+        "gap": -0.009466666666666623
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.07459580859848024,
+        "mean_nfe": 3.63,
+        "n": 100,
+        "tau": 0.2857142857142857,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8491333333333333,
+        "gap": -0.009133333333333327
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.07459580859848024,
+        "mean_nfe": 3.63,
+        "n": 100,
+        "tau": 0.3061224489795918,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8491333333333333,
+        "gap": -0.009133333333333327
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.05683157067938674,
+        "mean_nfe": 3.9,
+        "n": 100,
+        "tau": 0.32653061224489793,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8473333333333333,
+        "gap": -0.01733333333333331
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.06073707855105556,
+        "mean_nfe": 3.95,
+        "n": 100,
+        "tau": 0.3469387755102041,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.847,
+        "gap": -0.007000000000000006
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.06073707855105556,
+        "mean_nfe": 3.95,
+        "n": 100,
+        "tau": 0.36734693877551017,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.847,
+        "gap": -0.007000000000000006
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.05511688089740306,
+        "mean_nfe": 4.05,
+        "n": 100,
+        "tau": 0.3877551020408163,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8463333333333333,
+        "gap": -0.006333333333333302
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.06319808102919719,
+        "mean_nfe": 4.49,
+        "n": 100,
+        "tau": 0.4081632653061224,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8433999999999999,
+        "gap": -0.0033999999999999586
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.07786706539397426,
+        "mean_nfe": 4.54,
+        "n": 100,
+        "tau": 0.42857142857142855,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8430666666666666,
+        "gap": -0.003066666666666662
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.07786706539397426,
+        "mean_nfe": 4.54,
+        "n": 100,
+        "tau": 0.44897959183673464,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8430666666666666,
+        "gap": -0.003066666666666662
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.06673620723889327,
+        "mean_nfe": 4.98,
+        "n": 100,
+        "tau": 0.4693877551020408,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8401333333333333,
+        "gap": -0.00013333333333331865
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.06673620723889327,
+        "mean_nfe": 4.98,
+        "n": 100,
+        "tau": 0.4897959183673469,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8401333333333333,
+        "gap": -0.00013333333333331865
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.06212506334965019,
+        "mean_nfe": 5.03,
+        "n": 100,
+        "tau": 0.5102040816326531,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8400249999999999,
+        "gap": -2.4999999999941735e-05
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.06305837328226223,
+        "mean_nfe": 5.2,
+        "n": 100,
+        "tau": 0.5306122448979591,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8401666666666666,
+        "gap": -0.0001666666666666483
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.05837544362327407,
+        "mean_nfe": 5.3,
+        "n": 100,
+        "tau": 0.5510204081632653,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8402499999999999,
+        "gap": -0.00024999999999997247
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.05837544362327407,
+        "mean_nfe": 5.3,
+        "n": 100,
+        "tau": 0.5714285714285714,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8402499999999999,
+        "gap": -0.00024999999999997247
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.05837544362327407,
+        "mean_nfe": 5.3,
+        "n": 100,
+        "tau": 0.5918367346938775,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8402499999999999,
+        "gap": -0.00024999999999997247
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.0529947437586462,
+        "mean_nfe": 5.91,
+        "n": 100,
+        "tau": 0.6122448979591836,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8407583333333333,
+        "gap": -0.0007583333333333053
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.06982428327541387,
+        "mean_nfe": 6.69,
+        "n": 100,
+        "tau": 0.6326530612244897,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8414083333333333,
+        "gap": -0.011408333333333354
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.07650833705979083,
+        "mean_nfe": 6.86,
+        "n": 100,
+        "tau": 0.6530612244897959,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.84155,
+        "gap": -0.02155000000000007
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.07696893714336503,
+        "mean_nfe": 7.08,
+        "n": 100,
+        "tau": 0.673469387755102,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8417333333333333,
+        "gap": -0.021733333333333382
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.07736328948812246,
+        "mean_nfe": 7.52,
+        "n": 100,
+        "tau": 0.6938775510204082,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8421,
+        "gap": -0.02210000000000001
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.08059991341699466,
+        "mean_nfe": 7.69,
+        "n": 100,
+        "tau": 0.7142857142857142,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8422416666666667,
+        "gap": -0.022241666666666715
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.09117446782782151,
+        "mean_nfe": 7.96,
+        "n": 100,
+        "tau": 0.7346938775510203,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8424666666666666,
+        "gap": -0.03246666666666653
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.081111439932476,
+        "mean_nfe": 8.79,
+        "n": 100,
+        "tau": 0.7551020408163265,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8431583333333333,
+        "gap": -0.03315833333333329
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.07028514414781405,
+        "mean_nfe": 9.86,
+        "n": 100,
+        "tau": 0.7755102040816326,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.84405,
+        "gap": -0.04404999999999992
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.07003278064228409,
+        "mean_nfe": 10.81,
+        "n": 100,
+        "tau": 0.7959183673469387,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8448416666666667,
+        "gap": -0.04484166666666667
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.0624720923171142,
+        "mean_nfe": 12.2,
+        "n": 100,
+        "tau": 0.8163265306122448,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8460000000000001,
+        "gap": -0.03600000000000003
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.06773209510719194,
+        "mean_nfe": 12.64,
+        "n": 100,
+        "tau": 0.836734693877551,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8463666666666667,
+        "gap": -0.03636666666666666
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.08540925139610639,
+        "mean_nfe": 13.64,
+        "n": 100,
+        "tau": 0.8571428571428571,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8472,
+        "gap": -0.0371999999999999
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.08856574281959988,
+        "mean_nfe": 14.42,
+        "n": 100,
+        "tau": 0.8775510204081632,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.84785,
+        "gap": -0.03784999999999994
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.09202267037467785,
+        "mean_nfe": 14.86,
+        "n": 100,
+        "tau": 0.8979591836734693,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8482166666666667,
+        "gap": -0.03821666666666668
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.09331902535689819,
+        "mean_nfe": 15.52,
+        "n": 100,
+        "tau": 0.9183673469387754,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.8487666666666666,
+        "gap": -0.038766666666666505
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.09367838312587723,
+        "mean_nfe": 17.06,
+        "n": 100,
+        "tau": 0.9387755102040816,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.85,
+        "gap": -0.04999999999999993
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.1039100261969525,
+        "mean_nfe": 18.6,
+        "n": 100,
+        "tau": 0.9591836734693877,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.85,
+        "gap": -0.04999999999999993
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.11449775501125284,
+        "mean_nfe": 22.12,
+        "n": 100,
+        "tau": 0.9795918367346939,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.85,
+        "gap": -0.04999999999999993
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.12291346047182375,
+        "mean_nfe": 23.0,
+        "n": 100,
+        "tau": 1.0,
+        "dataset": "arc_c",
+        "interpolated_fixed_accuracy": 0.85,
+        "gap": -0.04999999999999993
+      }
+    ],
+    "boolq": [
+      {
+        "accuracy": 0.78,
+        "ece": 0.06727957217197816,
+        "mean_nfe": 1.0,
+        "n": 100,
+        "tau": 0.0,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.78,
+        "gap": 0.0
+      },
+      {
+        "accuracy": 0.79,
+        "ece": 0.06518774911689831,
+        "mean_nfe": 1.05,
+        "n": 100,
+        "tau": 0.02040816326530612,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.7825,
+        "gap": 0.007500000000000062
+      },
+      {
+        "accuracy": 0.79,
+        "ece": 0.06518774911689831,
+        "mean_nfe": 1.05,
+        "n": 100,
+        "tau": 0.04081632653061224,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.7825,
+        "gap": 0.007500000000000062
+      },
+      {
+        "accuracy": 0.79,
+        "ece": 0.05997892500227446,
+        "mean_nfe": 1.27,
+        "n": 100,
+        "tau": 0.061224489795918366,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.7935,
+        "gap": -0.0034999999999999476
+      },
+      {
+        "accuracy": 0.79,
+        "ece": 0.05997892500227446,
+        "mean_nfe": 1.27,
+        "n": 100,
+        "tau": 0.08163265306122448,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.7935,
+        "gap": -0.0034999999999999476
+      },
+      {
+        "accuracy": 0.79,
+        "ece": 0.05997892500227446,
+        "mean_nfe": 1.27,
+        "n": 100,
+        "tau": 0.1020408163265306,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.7935,
+        "gap": -0.0034999999999999476
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.05288495117563155,
+        "mean_nfe": 1.32,
+        "n": 100,
+        "tau": 0.12244897959183673,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.796,
+        "gap": 0.0040000000000000036
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.05288495117563155,
+        "mean_nfe": 1.32,
+        "n": 100,
+        "tau": 0.14285714285714285,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.796,
+        "gap": 0.0040000000000000036
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.05288495117563155,
+        "mean_nfe": 1.32,
+        "n": 100,
+        "tau": 0.16326530612244897,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.796,
+        "gap": 0.0040000000000000036
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.05597950389165904,
+        "mean_nfe": 1.59,
+        "n": 100,
+        "tau": 0.18367346938775508,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8095,
+        "gap": -0.009499999999999953
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.05597950389165904,
+        "mean_nfe": 1.59,
+        "n": 100,
+        "tau": 0.2040816326530612,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8095,
+        "gap": -0.009499999999999953
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.0559303317597141,
+        "mean_nfe": 1.79,
+        "n": 100,
+        "tau": 0.22448979591836732,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8194999999999999,
+        "gap": -0.009499999999999842
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.0559303317597141,
+        "mean_nfe": 1.79,
+        "n": 100,
+        "tau": 0.24489795918367346,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8194999999999999,
+        "gap": -0.009499999999999842
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.05537472235406328,
+        "mean_nfe": 2.01,
+        "n": 100,
+        "tau": 0.26530612244897955,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8299666666666666,
+        "gap": -0.019966666666666577
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.05398084591304876,
+        "mean_nfe": 2.06,
+        "n": 100,
+        "tau": 0.2857142857142857,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8297999999999999,
+        "gap": -0.00979999999999992
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.05398084591304876,
+        "mean_nfe": 2.06,
+        "n": 100,
+        "tau": 0.3061224489795918,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8297999999999999,
+        "gap": -0.00979999999999992
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.05398059865247952,
+        "mean_nfe": 2.28,
+        "n": 100,
+        "tau": 0.32653061224489793,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8290666666666666,
+        "gap": -0.009066666666666667
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.06564233056560621,
+        "mean_nfe": 2.38,
+        "n": 100,
+        "tau": 0.3469387755102041,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8287333333333333,
+        "gap": -0.01873333333333327
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.06597003694273008,
+        "mean_nfe": 2.43,
+        "n": 100,
+        "tau": 0.36734693877551017,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8285666666666666,
+        "gap": -0.01856666666666651
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.06659305721813864,
+        "mean_nfe": 2.65,
+        "n": 100,
+        "tau": 0.3877551020408163,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8278333333333333,
+        "gap": -0.017833333333333257
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.06656209457356582,
+        "mean_nfe": 2.87,
+        "n": 100,
+        "tau": 0.4081632653061224,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8271,
+        "gap": -0.017099999999999893
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.07231007843911488,
+        "mean_nfe": 3.8,
+        "n": 100,
+        "tau": 0.42857142857142855,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.824,
+        "gap": -0.0040000000000000036
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.0842365150871009,
+        "mean_nfe": 4.14,
+        "n": 100,
+        "tau": 0.44897959183673464,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8228666666666666,
+        "gap": 0.007133333333333325
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.08486609261114847,
+        "mean_nfe": 4.19,
+        "n": 100,
+        "tau": 0.4693877551020408,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8227,
+        "gap": 0.007299999999999973
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.09602141770916728,
+        "mean_nfe": 4.75,
+        "n": 100,
+        "tau": 0.4897959183673469,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8208333333333333,
+        "gap": 0.009166666666666656
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.08134952748475796,
+        "mean_nfe": 5.24,
+        "n": 100,
+        "tau": 0.5102040816326531,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8202,
+        "gap": -0.000200000000000089
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.07273173797751656,
+        "mean_nfe": 5.34,
+        "n": 100,
+        "tau": 0.5306122448979591,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8202833333333333,
+        "gap": 0.009716666666666707
+      },
+      {
+        "accuracy": 0.83,
+        "ece": 0.08217098616538132,
+        "mean_nfe": 6.27,
+        "n": 100,
+        "tau": 0.5510204081632653,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8210583333333332,
+        "gap": 0.008941666666666737
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.08355359354729358,
+        "mean_nfe": 6.76,
+        "n": 100,
+        "tau": 0.5714285714285714,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8214666666666666,
+        "gap": 0.0185333333333334
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.08355359354729358,
+        "mean_nfe": 6.76,
+        "n": 100,
+        "tau": 0.5918367346938775,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8214666666666666,
+        "gap": 0.0185333333333334
+      },
+      {
+        "accuracy": 0.85,
+        "ece": 0.07819550865663735,
+        "mean_nfe": 7.15,
+        "n": 100,
+        "tau": 0.6122448979591836,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8217916666666666,
+        "gap": 0.02820833333333339
+      },
+      {
+        "accuracy": 0.85,
+        "ece": 0.08267726590504978,
+        "mean_nfe": 7.59,
+        "n": 100,
+        "tau": 0.6326530612244897,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8221583333333333,
+        "gap": 0.027841666666666653
+      },
+      {
+        "accuracy": 0.85,
+        "ece": 0.06771652717896487,
+        "mean_nfe": 7.93,
+        "n": 100,
+        "tau": 0.6530612244897959,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8224416666666666,
+        "gap": 0.02755833333333335
+      },
+      {
+        "accuracy": 0.85,
+        "ece": 0.06771652717896487,
+        "mean_nfe": 7.93,
+        "n": 100,
+        "tau": 0.673469387755102,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8224416666666666,
+        "gap": 0.02755833333333335
+      },
+      {
+        "accuracy": 0.84,
+        "ece": 0.06155242438647176,
+        "mean_nfe": 8.54,
+        "n": 100,
+        "tau": 0.6938775510204082,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.82295,
+        "gap": 0.01705000000000001
+      },
+      {
+        "accuracy": 0.82,
+        "ece": 0.06610653209877507,
+        "mean_nfe": 9.2,
+        "n": 100,
+        "tau": 0.7142857142857142,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8234999999999999,
+        "gap": -0.0034999999999999476
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.07401876429256574,
+        "mean_nfe": 9.54,
+        "n": 100,
+        "tau": 0.7346938775510203,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8237833333333333,
+        "gap": -0.013783333333333259
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.06566851438908092,
+        "mean_nfe": 10.81,
+        "n": 100,
+        "tau": 0.7551020408163265,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8248416666666667,
+        "gap": -0.014841666666666642
+      },
+      {
+        "accuracy": 0.81,
+        "ece": 0.0637571013655641,
+        "mean_nfe": 11.15,
+        "n": 100,
+        "tau": 0.7755102040816326,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.825125,
+        "gap": -0.015124999999999944
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.060047106598165124,
+        "mean_nfe": 11.83,
+        "n": 100,
+        "tau": 0.7959183673469387,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8256916666666666,
+        "gap": -0.025691666666666557
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.056088887950281406,
+        "mean_nfe": 12.49,
+        "n": 100,
+        "tau": 0.8163265306122448,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8262416666666665,
+        "gap": -0.026241666666666497
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.05489731539910458,
+        "mean_nfe": 12.71,
+        "n": 100,
+        "tau": 0.836734693877551,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.826425,
+        "gap": -0.02642499999999992
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.04900180270158503,
+        "mean_nfe": 13.81,
+        "n": 100,
+        "tau": 0.8571428571428571,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8273416666666666,
+        "gap": -0.027341666666666598
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.04781257008033064,
+        "mean_nfe": 14.03,
+        "n": 100,
+        "tau": 0.8775510204081632,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8275249999999998,
+        "gap": -0.0275249999999998
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.04756761709422892,
+        "mean_nfe": 14.64,
+        "n": 100,
+        "tau": 0.8979591836734693,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8280333333333333,
+        "gap": -0.028033333333333244
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.04461991106193754,
+        "mean_nfe": 16.4,
+        "n": 100,
+        "tau": 0.9183673469387754,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.8295,
+        "gap": -0.02949999999999997
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.04823901475168674,
+        "mean_nfe": 17.94,
+        "n": 100,
+        "tau": 0.9387755102040816,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.83,
+        "gap": -0.029999999999999916
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.054423860513129904,
+        "mean_nfe": 19.48,
+        "n": 100,
+        "tau": 0.9591836734693877,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.83,
+        "gap": -0.029999999999999916
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.03324518291203697,
+        "mean_nfe": 22.12,
+        "n": 100,
+        "tau": 0.9795918367346939,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.83,
+        "gap": -0.029999999999999916
+      },
+      {
+        "accuracy": 0.8,
+        "ece": 0.03480937227920801,
+        "mean_nfe": 23.0,
+        "n": 100,
+        "tau": 1.0,
+        "dataset": "boolq",
+        "interpolated_fixed_accuracy": 0.83,
+        "gap": -0.029999999999999916
+      }
+    ],
+    "jagged": [
+      {
+        "accuracy": 0.6666666666666666,
+        "ece": 0.1428263040959463,
+        "mean_nfe": 1.0,
+        "n": 60,
+        "tau": 0.0,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.6666666666666666,
+        "gap": 0.0
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.1437902483759927,
+        "mean_nfe": 1.45,
+        "n": 60,
+        "tau": 0.02040816326530612,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.6816666666666666,
+        "gap": 0.0016666666666667052
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.12664910090204223,
+        "mean_nfe": 1.6166666666666667,
+        "n": 60,
+        "tau": 0.04081632653061224,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.6872222222222222,
+        "gap": -0.0038888888888888307
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.11381321583882814,
+        "mean_nfe": 1.9,
+        "n": 60,
+        "tau": 0.061224489795918366,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.6966666666666667,
+        "gap": -0.013333333333333308
+      },
+      {
+        "accuracy": 0.7,
+        "ece": 0.10316021349099476,
+        "mean_nfe": 1.9833333333333334,
+        "n": 60,
+        "tau": 0.08163265306122448,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.6994444444444444,
+        "gap": 0.0005555555555555314
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.08308621059855355,
+        "mean_nfe": 2.35,
+        "n": 60,
+        "tau": 0.1020408163265306,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7038888888888889,
+        "gap": -0.02055555555555555
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.0897461599847862,
+        "mean_nfe": 3.533333333333333,
+        "n": 60,
+        "tau": 0.12244897959183673,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7170370370370369,
+        "gap": -0.0670370370370369
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.09140255540589638,
+        "mean_nfe": 4.266666666666667,
+        "n": 60,
+        "tau": 0.14285714285714285,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7251851851851852,
+        "gap": -0.09185185185185185
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.10544518587992688,
+        "mean_nfe": 4.35,
+        "n": 60,
+        "tau": 0.16326530612244897,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.726111111111111,
+        "gap": -0.09277777777777774
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.1045525916715179,
+        "mean_nfe": 4.8,
+        "n": 60,
+        "tau": 0.18367346938775508,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.731111111111111,
+        "gap": -0.09777777777777774
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.11461311447638475,
+        "mean_nfe": 5.533333333333333,
+        "n": 60,
+        "tau": 0.2040816326530612,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7325925925925926,
+        "gap": -0.09925925925925927
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.11461311447638475,
+        "mean_nfe": 5.533333333333333,
+        "n": 60,
+        "tau": 0.22448979591836732,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7325925925925926,
+        "gap": -0.09925925925925927
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.11461311447638475,
+        "mean_nfe": 5.533333333333333,
+        "n": 60,
+        "tau": 0.24489795918367346,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7325925925925926,
+        "gap": -0.09925925925925927
+      },
+      {
+        "accuracy": 0.6166666666666667,
+        "ece": 0.14532776874246617,
+        "mean_nfe": 6.266666666666667,
+        "n": 60,
+        "tau": 0.26530612244897955,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.731574074074074,
+        "gap": -0.11490740740740735
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.13255846558562415,
+        "mean_nfe": 6.35,
+        "n": 60,
+        "tau": 0.2857142857142857,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7314583333333333,
+        "gap": -0.09812500000000002
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.12457531261391547,
+        "mean_nfe": 6.433333333333334,
+        "n": 60,
+        "tau": 0.3061224489795918,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7313425925925926,
+        "gap": -0.08134259259259258
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.13226033437769918,
+        "mean_nfe": 6.8,
+        "n": 60,
+        "tau": 0.32653061224489793,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7308333333333333,
+        "gap": -0.08083333333333331
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.13226033437769918,
+        "mean_nfe": 6.8,
+        "n": 60,
+        "tau": 0.3469387755102041,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7308333333333333,
+        "gap": -0.08083333333333331
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.12474195470345908,
+        "mean_nfe": 7.166666666666667,
+        "n": 60,
+        "tau": 0.36734693877551017,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7303240740740741,
+        "gap": -0.08032407407407405
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.14065942680758806,
+        "mean_nfe": 7.25,
+        "n": 60,
+        "tau": 0.3877551020408163,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7302083333333333,
+        "gap": -0.09687500000000004
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.1408395191114348,
+        "mean_nfe": 7.616666666666666,
+        "n": 60,
+        "tau": 0.4081632653061224,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7296990740740741,
+        "gap": -0.09636574074074078
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.15598193946909472,
+        "mean_nfe": 8.35,
+        "n": 60,
+        "tau": 0.42857142857142855,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7286805555555556,
+        "gap": -0.09534722222222225
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.12728335613263542,
+        "mean_nfe": 8.683333333333334,
+        "n": 60,
+        "tau": 0.44897959183673464,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7282175925925926,
+        "gap": -0.07821759259259253
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.1396774614994491,
+        "mean_nfe": 9.866666666666667,
+        "n": 60,
+        "tau": 0.4693877551020408,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.726574074074074,
+        "gap": -0.07657407407407402
+      },
+      {
+        "accuracy": 0.6666666666666666,
+        "ece": 0.12773062565269122,
+        "mean_nfe": 10.316666666666666,
+        "n": 60,
+        "tau": 0.4897959183673469,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.725949074074074,
+        "gap": -0.05928240740740742
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.12383721852044563,
+        "mean_nfe": 10.766666666666667,
+        "n": 60,
+        "tau": 0.5102040816326531,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7253240740740741,
+        "gap": -0.04199074074074072
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.12383721852044563,
+        "mean_nfe": 10.766666666666667,
+        "n": 60,
+        "tau": 0.5306122448979591,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7253240740740741,
+        "gap": -0.04199074074074072
+      },
+      {
+        "accuracy": 0.6833333333333333,
+        "ece": 0.12383721852044563,
+        "mean_nfe": 10.766666666666667,
+        "n": 60,
+        "tau": 0.5510204081632653,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7253240740740741,
+        "gap": -0.04199074074074072
+      },
+      {
+        "accuracy": 0.6666666666666666,
+        "ece": 0.14766397261888833,
+        "mean_nfe": 11.133333333333333,
+        "n": 60,
+        "tau": 0.5714285714285714,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7248148148148148,
+        "gap": -0.05814814814814817
+      },
+      {
+        "accuracy": 0.6666666666666666,
+        "ece": 0.1563030197835545,
+        "mean_nfe": 11.666666666666666,
+        "n": 60,
+        "tau": 0.5918367346938775,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7240740740740741,
+        "gap": -0.05740740740740746
+      },
+      {
+        "accuracy": 0.6666666666666666,
+        "ece": 0.15662635505164685,
+        "mean_nfe": 11.95,
+        "n": 60,
+        "tau": 0.6122448979591836,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7236805555555554,
+        "gap": -0.05701388888888881
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.18597833276592207,
+        "mean_nfe": 12.8,
+        "n": 60,
+        "tau": 0.6326530612244897,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7225,
+        "gap": -0.08916666666666673
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.1817197031939038,
+        "mean_nfe": 13.366666666666667,
+        "n": 60,
+        "tau": 0.6530612244897959,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.721712962962963,
+        "gap": -0.08837962962962964
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.17908983494153147,
+        "mean_nfe": 13.933333333333334,
+        "n": 60,
+        "tau": 0.673469387755102,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7209259259259259,
+        "gap": -0.08759259259259256
+      },
+      {
+        "accuracy": 0.6333333333333333,
+        "ece": 0.1795152729813314,
+        "mean_nfe": 14.216666666666667,
+        "n": 60,
+        "tau": 0.6938775510204082,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7205324074074074,
+        "gap": -0.08719907407407412
+      },
+      {
+        "accuracy": 0.6166666666666667,
+        "ece": 0.19061518516175033,
+        "mean_nfe": 14.783333333333333,
+        "n": 60,
+        "tau": 0.7142857142857142,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7197453703703705,
+        "gap": -0.10307870370370376
+      },
+      {
+        "accuracy": 0.6,
+        "ece": 0.1939356896935877,
+        "mean_nfe": 16.45,
+        "n": 60,
+        "tau": 0.7346938775510203,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7174305555555556,
+        "gap": -0.1174305555555556
+      },
+      {
+        "accuracy": 0.6,
+        "ece": 0.1856950247888388,
+        "mean_nfe": 16.733333333333334,
+        "n": 60,
+        "tau": 0.7551020408163265,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.717037037037037,
+        "gap": -0.11703703703703705
+      },
+      {
+        "accuracy": 0.5833333333333334,
+        "ece": 0.19348700311345873,
+        "mean_nfe": 17.016666666666666,
+        "n": 60,
+        "tau": 0.7755102040816326,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7166666666666667,
+        "gap": -0.1333333333333333
+      },
+      {
+        "accuracy": 0.55,
+        "ece": 0.18883718832415858,
+        "mean_nfe": 18.6,
+        "n": 60,
+        "tau": 0.7959183673469387,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7166666666666667,
+        "gap": -0.16666666666666663
+      },
+      {
+        "accuracy": 0.55,
+        "ece": 0.18737699207680478,
+        "mean_nfe": 18.966666666666665,
+        "n": 60,
+        "tau": 0.8163265306122448,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7166666666666667,
+        "gap": -0.16666666666666663
+      },
+      {
+        "accuracy": 0.55,
+        "ece": 0.18737699207680478,
+        "mean_nfe": 18.966666666666665,
+        "n": 60,
+        "tau": 0.836734693877551,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7166666666666667,
+        "gap": -0.16666666666666663
+      },
+      {
+        "accuracy": 0.55,
+        "ece": 0.18709196943531486,
+        "mean_nfe": 19.7,
+        "n": 60,
+        "tau": 0.8571428571428571,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7166666666666667,
+        "gap": -0.16666666666666663
+      },
+      {
+        "accuracy": 0.55,
+        "ece": 0.18569264305406222,
+        "mean_nfe": 20.066666666666666,
+        "n": 60,
+        "tau": 0.8775510204081632,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7166666666666667,
+        "gap": -0.16666666666666663
+      },
+      {
+        "accuracy": 0.55,
+        "ece": 0.1878984205921981,
+        "mean_nfe": 20.433333333333334,
+        "n": 60,
+        "tau": 0.8979591836734693,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7166666666666667,
+        "gap": -0.16666666666666663
+      },
+      {
+        "accuracy": 0.55,
+        "ece": 0.18293682992185278,
+        "mean_nfe": 20.8,
+        "n": 60,
+        "tau": 0.9183673469387754,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7166666666666667,
+        "gap": -0.16666666666666663
+      },
+      {
+        "accuracy": 0.55,
+        "ece": 0.1811400799797885,
+        "mean_nfe": 21.533333333333335,
+        "n": 60,
+        "tau": 0.9387755102040816,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7166666666666667,
+        "gap": -0.16666666666666663
+      },
+      {
+        "accuracy": 0.55,
+        "ece": 0.18431905778286245,
+        "mean_nfe": 23.0,
+        "n": 60,
+        "tau": 0.9591836734693877,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7166666666666667,
+        "gap": -0.16666666666666663
+      },
+      {
+        "accuracy": 0.55,
+        "ece": 0.18431905778286245,
+        "mean_nfe": 23.0,
+        "n": 60,
+        "tau": 0.9795918367346939,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7166666666666667,
+        "gap": -0.16666666666666663
+      },
+      {
+        "accuracy": 0.55,
+        "ece": 0.18431905778286245,
+        "mean_nfe": 23.0,
+        "n": 60,
+        "tau": 1.0,
+        "dataset": "jagged",
+        "interpolated_fixed_accuracy": 0.7166666666666667,
+        "gap": -0.16666666666666663
+      }
+    ],
+    "strategyqa": [
+      {
+        "accuracy": 0.61,
+        "ece": 0.09048076496977014,
+        "mean_nfe": 1.0,
+        "n": 100,
+        "tau": 0.0,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.61,
+        "gap": 0.0
+      },
+      {
+        "accuracy": 0.61,
+        "ece": 0.08624438251199018,
+        "mean_nfe": 1.57,
+        "n": 100,
+        "tau": 0.02040816326530612,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6442000000000001,
+        "gap": -0.03420000000000012
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.06721582394454148,
+        "mean_nfe": 1.99,
+        "n": 100,
+        "tau": 0.04081632653061224,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6694,
+        "gap": -0.02939999999999998
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.06721582394454148,
+        "mean_nfe": 1.99,
+        "n": 100,
+        "tau": 0.061224489795918366,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6694,
+        "gap": -0.02939999999999998
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.07955310885039743,
+        "mean_nfe": 2.53,
+        "n": 100,
+        "tau": 0.08163265306122448,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6664666666666668,
+        "gap": -0.006466666666666732
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.09360591390439942,
+        "mean_nfe": 3.19,
+        "n": 100,
+        "tau": 0.1020408163265306,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6620666666666667,
+        "gap": -0.01206666666666667
+      },
+      {
+        "accuracy": 0.67,
+        "ece": 0.09783539400802285,
+        "mean_nfe": 3.78,
+        "n": 100,
+        "tau": 0.12244897959183673,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6581333333333335,
+        "gap": 0.011866666666666581
+      },
+      {
+        "accuracy": 0.67,
+        "ece": 0.0962324124161158,
+        "mean_nfe": 3.88,
+        "n": 100,
+        "tau": 0.14285714285714285,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6574666666666666,
+        "gap": 0.012533333333333396
+      },
+      {
+        "accuracy": 0.67,
+        "ece": 0.10154704619144825,
+        "mean_nfe": 4.42,
+        "n": 100,
+        "tau": 0.16326530612244897,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6538666666666667,
+        "gap": 0.016133333333333333
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.10080402410854385,
+        "mean_nfe": 4.84,
+        "n": 100,
+        "tau": 0.18367346938775508,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6510666666666667,
+        "gap": -0.0010666666666666602
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.09169804352817344,
+        "mean_nfe": 5.06,
+        "n": 100,
+        "tau": 0.2040816326530612,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6502,
+        "gap": 0.009800000000000031
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.12122170405156282,
+        "mean_nfe": 5.53,
+        "n": 100,
+        "tau": 0.22448979591836732,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6517666666666667,
+        "gap": 0.008233333333333315
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.14011099368847799,
+        "mean_nfe": 6.29,
+        "n": 100,
+        "tau": 0.24489795918367346,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6543,
+        "gap": 0.005700000000000038
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.16155256201627669,
+        "mean_nfe": 7.0,
+        "n": 100,
+        "tau": 0.26530612244897955,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6566666666666667,
+        "gap": -0.00666666666666671
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.17612746895004008,
+        "mean_nfe": 7.71,
+        "n": 100,
+        "tau": 0.2857142857142857,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6590333333333334,
+        "gap": -0.019033333333333347
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.16586633815704704,
+        "mean_nfe": 8.03,
+        "n": 100,
+        "tau": 0.3061224489795918,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6601,
+        "gap": -0.020100000000000007
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.17085975835879993,
+        "mean_nfe": 8.42,
+        "n": 100,
+        "tau": 0.32653061224489793,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6614,
+        "gap": -0.011399999999999966
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.18313910776112857,
+        "mean_nfe": 8.69,
+        "n": 100,
+        "tau": 0.3469387755102041,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6623000000000001,
+        "gap": -0.012300000000000089
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.18381914103309208,
+        "mean_nfe": 8.91,
+        "n": 100,
+        "tau": 0.36734693877551017,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6630333333333334,
+        "gap": -0.013033333333333341
+      },
+      {
+        "accuracy": 0.63,
+        "ece": 0.20961342567176247,
+        "mean_nfe": 9.94,
+        "n": 100,
+        "tau": 0.3877551020408163,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6664666666666667,
+        "gap": -0.03646666666666665
+      },
+      {
+        "accuracy": 0.63,
+        "ece": 0.22432350483638455,
+        "mean_nfe": 10.33,
+        "n": 100,
+        "tau": 0.4081632653061224,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6677666666666666,
+        "gap": -0.037766666666666615
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.21123485166568265,
+        "mean_nfe": 11.06,
+        "n": 100,
+        "tau": 0.42857142857142855,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6701999999999999,
+        "gap": -0.030199999999999894
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.22687192942452197,
+        "mean_nfe": 11.57,
+        "n": 100,
+        "tau": 0.44897959183673464,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6718999999999999,
+        "gap": -0.02189999999999992
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.2129862169001417,
+        "mean_nfe": 12.01,
+        "n": 100,
+        "tau": 0.4693877551020408,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6733666666666667,
+        "gap": -0.033366666666666656
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.2137038636389344,
+        "mean_nfe": 12.06,
+        "n": 100,
+        "tau": 0.4897959183673469,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6735333333333333,
+        "gap": -0.033533333333333304
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.1965639763299617,
+        "mean_nfe": 12.79,
+        "n": 100,
+        "tau": 0.5102040816326531,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6759666666666666,
+        "gap": -0.025966666666666582
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.178847676470218,
+        "mean_nfe": 13.35,
+        "n": 100,
+        "tau": 0.5306122448979591,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6778333333333333,
+        "gap": -0.017833333333333257
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.18022231919832127,
+        "mean_nfe": 13.62,
+        "n": 100,
+        "tau": 0.5510204081632653,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6787333333333333,
+        "gap": -0.01873333333333327
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.17952291830322525,
+        "mean_nfe": 13.96,
+        "n": 100,
+        "tau": 0.5714285714285714,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6798666666666666,
+        "gap": -0.019866666666666588
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.1888359432677117,
+        "mean_nfe": 14.47,
+        "n": 100,
+        "tau": 0.5918367346938775,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6815666666666667,
+        "gap": -0.021566666666666623
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.1888359432677117,
+        "mean_nfe": 14.47,
+        "n": 100,
+        "tau": 0.6122448979591836,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6815666666666667,
+        "gap": -0.021566666666666623
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.19852301651018664,
+        "mean_nfe": 15.25,
+        "n": 100,
+        "tau": 0.6326530612244897,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6841666666666667,
+        "gap": -0.02416666666666667
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.20456662002132184,
+        "mean_nfe": 15.52,
+        "n": 100,
+        "tau": 0.6530612244897959,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6850666666666666,
+        "gap": -0.02506666666666657
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.21204897987618232,
+        "mean_nfe": 16.64,
+        "n": 100,
+        "tau": 0.673469387755102,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.6888,
+        "gap": -0.038799999999999946
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.2181437989436311,
+        "mean_nfe": 17.2,
+        "n": 100,
+        "tau": 0.6938775510204082,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.69,
+        "gap": -0.04999999999999993
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.21118174892052513,
+        "mean_nfe": 18.3,
+        "n": 100,
+        "tau": 0.7142857142857142,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.69,
+        "gap": -0.04999999999999993
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.20972469829215426,
+        "mean_nfe": 18.86,
+        "n": 100,
+        "tau": 0.7346938775510203,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.69,
+        "gap": -0.04999999999999993
+      },
+      {
+        "accuracy": 0.64,
+        "ece": 0.2073162782359949,
+        "mean_nfe": 19.42,
+        "n": 100,
+        "tau": 0.7551020408163265,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.69,
+        "gap": -0.04999999999999993
+      },
+      {
+        "accuracy": 0.65,
+        "ece": 0.19712079487858714,
+        "mean_nfe": 19.98,
+        "n": 100,
+        "tau": 0.7755102040816326,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.69,
+        "gap": -0.039999999999999925
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.17362339108263028,
+        "mean_nfe": 20.32,
+        "n": 100,
+        "tau": 0.7959183673469387,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.69,
+        "gap": -0.029999999999999916
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.1701298151065682,
+        "mean_nfe": 21.1,
+        "n": 100,
+        "tau": 0.8163265306122448,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.69,
+        "gap": -0.029999999999999916
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.1697829527793653,
+        "mean_nfe": 21.49,
+        "n": 100,
+        "tau": 0.836734693877551,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.69,
+        "gap": -0.029999999999999916
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.16260307666111445,
+        "mean_nfe": 22.27,
+        "n": 100,
+        "tau": 0.8571428571428571,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.69,
+        "gap": -0.029999999999999916
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.1581256181977338,
+        "mean_nfe": 22.83,
+        "n": 100,
+        "tau": 0.8775510204081632,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.69,
+        "gap": -0.029999999999999916
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.15609020813636598,
+        "mean_nfe": 23.0,
+        "n": 100,
+        "tau": 0.8979591836734693,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.69,
+        "gap": -0.029999999999999916
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.15609020813636598,
+        "mean_nfe": 23.0,
+        "n": 100,
+        "tau": 0.9183673469387754,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.69,
+        "gap": -0.029999999999999916
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.15609020813636598,
+        "mean_nfe": 23.0,
+        "n": 100,
+        "tau": 0.9387755102040816,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.69,
+        "gap": -0.029999999999999916
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.15609020813636598,
+        "mean_nfe": 23.0,
+        "n": 100,
+        "tau": 0.9591836734693877,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.69,
+        "gap": -0.029999999999999916
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.15609020813636598,
+        "mean_nfe": 23.0,
+        "n": 100,
+        "tau": 0.9795918367346939,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.69,
+        "gap": -0.029999999999999916
+      },
+      {
+        "accuracy": 0.66,
+        "ece": 0.15609020813636598,
+        "mean_nfe": 23.0,
+        "n": 100,
+        "tau": 1.0,
+        "dataset": "strategyqa",
+        "interpolated_fixed_accuracy": 0.69,
+        "gap": -0.029999999999999916
+      }
+    ]
+  },
+  "selection_rule": "On dev, maximize the unweighted mean across datasets of (escalation accuracy - accuracy of the interpolated fixed-budget upper envelope) at the escalation rule's mean NFE. Ties break toward lower mean NFE, then lower tau. A second tau is fit the same way after per-cell temperature scaling. Section 7 did not name the selection objective; this one matches the dominance claim and is frozen before test.",
+  "temperatures_by_dataset": {
+    "llada-8b-instruct|arc_c|C0|0|na": {
+      "temperature": 1.4340026314347585,
+      "nll": 0.4889824969498613,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|arc_c|C1|128|1": {
+      "temperature": 2.2650020847800563,
+      "nll": 0.6413176144545435,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|arc_c|C1|128|16": {
+      "temperature": 3.4376910549521438,
+      "nll": 0.6898421688943204,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|arc_c|C1|128|4": {
+      "temperature": 2.4757481640559327,
+      "nll": 0.6467660742784449,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|arc_c|C1|32|1": {
+      "temperature": 2.2100896268770422,
+      "nll": 0.6464774571696149,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|arc_c|C1|32|16": {
+      "temperature": 3.7117211682682036,
+      "nll": 0.6860124581678249,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|arc_c|C1|32|4": {
+      "temperature": 2.807581713382534,
+      "nll": 0.6030705860302998,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|arc_c|C2|128|1": {
+      "temperature": 1.9608692081528871,
+      "nll": 0.4666394787500745,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|arc_c|C2|128|16": {
+      "temperature": 2.415726401713764,
+      "nll": 0.5706356319029886,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|arc_c|C2|128|4": {
+      "temperature": 2.0344016837243704,
+      "nll": 0.5095260123949289,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|arc_c|C2|32|1": {
+      "temperature": 1.8161015419009483,
+      "nll": 0.5907045377235661,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|arc_c|C2|32|16": {
+      "temperature": 2.7227577645680054,
+      "nll": 0.6528472066539964,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|arc_c|C2|32|4": {
+      "temperature": 2.640496555871848,
+      "nll": 0.6799677193339434,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|boolq|C0|0|na": {
+      "temperature": 2.4909851909147136,
+      "nll": 0.4487954199219359,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|boolq|C1|128|1": {
+      "temperature": 2.921815743687244,
+      "nll": 0.5008476367049218,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|boolq|C1|128|16": {
+      "temperature": 4.082045895272796,
+      "nll": 0.4862358119810111,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|boolq|C1|128|4": {
+      "temperature": 3.233106750726233,
+      "nll": 0.5083895117990312,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|boolq|C1|32|1": {
+      "temperature": 2.50631599426937,
+      "nll": 0.4462603774029904,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|boolq|C1|32|16": {
+      "temperature": 3.780675331986418,
+      "nll": 0.43329997256483566,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|boolq|C1|32|4": {
+      "temperature": 3.4166631535709784,
+      "nll": 0.44994962045402076,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|boolq|C2|128|1": {
+      "temperature": 2.2929678529328275,
+      "nll": 0.4544152931068319,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|boolq|C2|128|16": {
+      "temperature": 3.958717248975976,
+      "nll": 0.557913349949876,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|boolq|C2|128|4": {
+      "temperature": 2.460604340074608,
+      "nll": 0.45388241364299403,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|boolq|C2|32|1": {
+      "temperature": 2.400949722911887,
+      "nll": 0.46342183748260973,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|boolq|C2|32|16": {
+      "temperature": 3.448253487169211,
+      "nll": 0.4838863882525965,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|boolq|C2|32|4": {
+      "temperature": 2.706103015539392,
+      "nll": 0.431497100862527,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|jagged|C0|0|na": {
+      "temperature": 1.6212259539900464,
+      "nll": 0.7036329317789198,
+      "n_dev": 60
+    },
+    "llada-8b-instruct|jagged|C1|128|1": {
+      "temperature": 4.380480011285282,
+      "nll": 0.9061623004048529,
+      "n_dev": 60
+    },
+    "llada-8b-instruct|jagged|C1|128|16": {
+      "temperature": 5.862650458206102,
+      "nll": 0.956589485402992,
+      "n_dev": 60
+    },
+    "llada-8b-instruct|jagged|C1|128|4": {
+      "temperature": 4.700732334119816,
+      "nll": 0.922432556859408,
+      "n_dev": 60
+    },
+    "llada-8b-instruct|jagged|C1|32|1": {
+      "temperature": 1.9488748306270176,
+      "nll": 0.7891433159692889,
+      "n_dev": 60
+    },
+    "llada-8b-instruct|jagged|C1|32|16": {
+      "temperature": 3.666451831628026,
+      "nll": 0.7326010727699416,
+      "n_dev": 60
+    },
+    "llada-8b-instruct|jagged|C1|32|4": {
+      "temperature": 2.640496555871848,
+      "nll": 0.6851046701176062,
+      "n_dev": 60
+    },
+    "llada-8b-instruct|jagged|C2|128|1": {
+      "temperature": 3.757549441159,
+      "nll": 0.901813298835989,
+      "n_dev": 60
+    },
+    "llada-8b-instruct|jagged|C2|128|16": {
+      "temperature": 4.937225488284065,
+      "nll": 0.9477937808680167,
+      "n_dev": 60
+    },
+    "llada-8b-instruct|jagged|C2|128|4": {
+      "temperature": 4.300586259683018,
+      "nll": 0.9365596668809335,
+      "n_dev": 60
+    },
+    "llada-8b-instruct|jagged|C2|32|1": {
+      "temperature": 2.756375399135199,
+      "nll": 0.7944552126119652,
+      "n_dev": 60
+    },
+    "llada-8b-instruct|jagged|C2|32|16": {
+      "temperature": 3.233106750726233,
+      "nll": 0.7480164037367825,
+      "n_dev": 60
+    },
+    "llada-8b-instruct|jagged|C2|32|4": {
+      "temperature": 3.2530049516472093,
+      "nll": 0.7780888229393687,
+      "n_dev": 60
+    },
+    "llada-8b-instruct|strategyqa|C0|0|na": {
+      "temperature": 2.1965708010213683,
+      "nll": 0.6269470958237269,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|strategyqa|C1|128|1": {
+      "temperature": 7.222592632401379,
+      "nll": 0.681997618267363,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|strategyqa|C1|128|16": {
+      "temperature": 8.629166319046425,
+      "nll": 0.6549966596359376,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|strategyqa|C1|128|4": {
+      "temperature": 12.393242793492245,
+      "nll": 0.6861235246168484,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|strategyqa|C1|32|1": {
+      "temperature": 2.2373773960660452,
+      "nll": 0.6289050245371097,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|strategyqa|C1|32|16": {
+      "temperature": 7.798330197486398,
+      "nll": 0.6403364594924894,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|strategyqa|C1|32|4": {
+      "temperature": 7.222592632401379,
+      "nll": 0.6522800902509386,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|strategyqa|C2|128|1": {
+      "temperature": 3.555679304148404,
+      "nll": 0.6380357662806225,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|strategyqa|C2|128|16": {
+      "temperature": 6.648442865629575,
+      "nll": 0.6451074860723441,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|strategyqa|C2|128|4": {
+      "temperature": 4.572718458071806,
+      "nll": 0.6472873041349528,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|strategyqa|C2|32|1": {
+      "temperature": 2.04692243746924,
+      "nll": 0.5994075075909551,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|strategyqa|C2|32|16": {
+      "temperature": 5.72051701442272,
+      "nll": 0.6289884925688818,
+      "n_dev": 100
+    },
+    "llada-8b-instruct|strategyqa|C2|32|4": {
+      "temperature": 5.075443788289527,
+      "nll": 0.6409146047484642,
+      "n_dev": 100
+    },
+    "qwen3-8b|arc_c|C0|0|na": {
+      "temperature": 2.6082922166809372,
+      "nll": 0.2664278369464709,
+      "n_dev": 100
+    },
+    "qwen3-8b|boolq|C0|0|na": {
+      "temperature": 11.19999266996993,
+      "nll": 0.4651717186373817,
+      "n_dev": 100
+    },
+    "qwen3-8b|jagged|C0|0|na": {
+      "temperature": 6.368940346120314,
+      "nll": 0.8372519304735366,
+      "n_dev": 60
+    },
+    "qwen3-8b|strategyqa|C0|0|na": {
+      "temperature": 6.567356333378662,
+      "nll": 0.4984862812764799,
+      "n_dev": 100
+    }
+  },
+  "temperatures_by_dataset_note": "v1.2 secondary: one temperature per (model, dataset, cell), fit on dev by NLL grid search; frozen before test."
+}

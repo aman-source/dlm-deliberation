@@ -1,0 +1,10 @@
+{
+  "template": "v3e_dream",
+  "median_off_label_mass": 0.033575594425201416,
+  "candidates": {
+    "v3e_dream": 0.033575594425201416,
+    "v1e_dream": 0.15445873141288757
+  },
+  "rule": "lowest median C0 off_label_mass; gate < 0.5",
+  "protocol": "v1.1"
+}

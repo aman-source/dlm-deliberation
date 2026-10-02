@@ -1,0 +1,13 @@
+{
+  "device": "cuda",
+  "cuda_available": true,
+  "torch_version": "2.7.0+cu128",
+  "available_ram_bytes": 30760259584,
+  "llada_n_params_estimate": 8000000000,
+  "bf16_weight_bytes_estimate": 16000000000,
+  "cuda_name": "NVIDIA L4",
+  "cuda_free_bytes": 23455727616,
+  "budget_hours": 48.0,
+  "config": "configs/full_noeos.yaml",
+  "phase": "test"
+}

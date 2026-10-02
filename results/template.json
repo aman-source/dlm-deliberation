@@ -1,0 +1,10 @@
+{
+  "template": "v3e",
+  "median_off_label_mass": 0.016368746757507324,
+  "candidates": {
+    "v3e": 0.016368746757507324,
+    "v1e": 0.15329378843307495
+  },
+  "rule": "lowest median C0 off_label_mass; gate < 0.5",
+  "protocol": "v1.1"
+}

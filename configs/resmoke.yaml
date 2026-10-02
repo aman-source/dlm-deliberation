@@ -1,0 +1,35 @@
+# Protocol v1.1 re-smoke (29 Sep 2026). Same 20 dev items per dataset as the v1.0 smoke.
+# The routine (dd.run.run_resmoke) runs C0 with v3e and v1e, picks the template by the lowest median
+# C0 off_label_mass (gate < 0.5), then runs C1(32,4) and C2(32,4) with suppress_eos_in_scratch off
+# and on, and applies the pre-committed suppression rule. Results: results/protocol_v1_1.json.
+seed: 1234
+phase: resmoke
+split: dev
+smoke_n: 20
+batch_size: 1
+dtype: bfloat16
+anytime_shortcut: off
+suppress_eos_in_scratch: false
+device_budget_hours: null
+datasets:
+  - boolq
+  - strategyqa
+  - arc_c
+  - jagged
+models:
+  - name: llada-8b-instruct
+    hf_id: GSAI-ML/LLaDA-8B-Instruct
+    revision: 08b83a6feb34df1a6011b80c3c00c7563e963b07
+    kind: masked
+    mask_id: 126336
+    expected_mask_token: "<|mdm_mask|>"
+cells:
+  - condition: C0
+    S: 0
+    T: null
+  - condition: C1
+    S: 32
+    T: 4
+  - condition: C2
+    S: 32
+    T: 4

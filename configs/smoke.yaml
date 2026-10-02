@@ -1,0 +1,33 @@
+seed: 1234
+phase: smoke  # protocol v1.0 smoke; superseded by configs/resmoke.yaml under v1.1
+split: dev
+smoke_n: 20
+batch_size: 1
+dtype: bfloat16
+anytime_shortcut: auto
+# Ablation only. true = end-type ids get -inf logits at scratch positions (C1 and C2). Rows go to *_noeos.jsonl.
+suppress_eos_in_scratch: false
+device_budget_hours: null
+datasets:
+  - boolq
+  - strategyqa
+  - arc_c
+  - jagged
+models:
+  - name: llada-8b-instruct
+    hf_id: GSAI-ML/LLaDA-8B-Instruct
+    revision: 08b83a6feb34df1a6011b80c3c00c7563e963b07
+    kind: masked
+    mask_id: 126336
+    expected_mask_token: "<|mdm_mask|>"
+cells:
+  - condition: C0
+    S: 0
+    T: null
+  - condition: C1
+    S: 32
+    T: 4
+  # Added 29 Sep at the lead's request: C2 scratch/eos diagnostics in the smoke report.
+  - condition: C2
+    S: 32
+    T: 4

@@ -1,0 +1,30 @@
+{
+  "datasets": {
+    "boolq": {
+      "n": 20,
+      "accuracy": 0.8,
+      "chance": 0.5,
+      "beats_chance_by_10_points": true
+    },
+    "strategyqa": {
+      "n": 20,
+      "accuracy": 0.5,
+      "chance": 0.5,
+      "beats_chance_by_10_points": false
+    },
+    "arc_c": {
+      "n": 20,
+      "accuracy": 0.85,
+      "chance": 0.25,
+      "beats_chance_by_10_points": true
+    },
+    "jagged": {
+      "n": 20,
+      "accuracy": 0.7,
+      "chance": 0.36666666666666664,
+      "beats_chance_by_10_points": true
+    }
+  },
+  "median_off_label_mass": 0.9885156154632568,
+  "passed_model_forwards": true
+}

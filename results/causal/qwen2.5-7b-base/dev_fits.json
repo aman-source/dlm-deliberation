@@ -1,0 +1,10 @@
+{
+  "model": "qwen2.5-7b-base",
+  "hf_id": "Qwen/Qwen2.5-7B",
+  "revision": "d149729398750b98c0af14eb82c78cfe92750796",
+  "template": "v3e",
+  "temperature": 1.6312038119013414,
+  "nll": 0.6179732991531499,
+  "n_dev": 360,
+  "thinking_flag": "enable_thinking=False"
+}

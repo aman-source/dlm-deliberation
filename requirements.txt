@@ -1,0 +1,11 @@
+torch>=2.4
+transformers==4.46.3
+accelerate>=0.34
+datasets>=2.20
+numpy
+scipy
+pandas
+matplotlib
+pyyaml
+tqdm
+psutil

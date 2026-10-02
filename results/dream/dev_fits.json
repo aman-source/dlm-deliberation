@@ -1,0 +1,40 @@
+{
+  "temperatures": {
+    "dream-v0-instruct-7b|C0|0|na": {
+      "temperature": 1.0519221736075761,
+      "nll": 0.50760642224487,
+      "n_dev": 360
+    },
+    "dream-v0-instruct-7b|C1|32|1": {
+      "temperature": 2.44555314886107,
+      "nll": 0.6358490789800192,
+      "n_dev": 360
+    },
+    "dream-v0-instruct-7b|C1|32|16": {
+      "temperature": 3.3543480564590724,
+      "nll": 0.5751698094542284,
+      "n_dev": 360
+    },
+    "dream-v0-instruct-7b|C1|32|4": {
+      "temperature": 2.807581713382534,
+      "nll": 0.6109967485980835,
+      "n_dev": 360
+    },
+    "dream-v0-instruct-7b|C2|32|1": {
+      "temperature": 2.0721955966851304,
+      "nll": 0.5999653666946491,
+      "n_dev": 360
+    },
+    "dream-v0-instruct-7b|C2|32|16": {
+      "temperature": 2.8685259625097608,
+      "nll": 0.5863511920161917,
+      "n_dev": 360
+    },
+    "dream-v0-instruct-7b|C2|32|4": {
+      "temperature": 2.5923376382651084,
+      "nll": 0.5883255675307446,
+      "n_dev": 360
+    }
+  },
+  "model": null
+}

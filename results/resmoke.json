@@ -1,0 +1,59 @@
+{
+  "protocol": "v1.1",
+  "template": "v3e",
+  "suppress_eos_in_scratch": false,
+  "eos_pad_fraction": {
+    "C1_off": {
+      "median": 0.0,
+      "max": 0.0
+    },
+    "C2_off": {
+      "median": 0.0625,
+      "max": 0.09375
+    },
+    "C1_on": {
+      "median": 0.0,
+      "max": 0.0
+    },
+    "C2_on": {
+      "median": 0.0,
+      "max": 0.0
+    }
+  },
+  "c0_off_label_medians": {
+    "v3e": 0.016368746757507324,
+    "v1e": 0.15329378843307495
+  },
+  "suppress_rule": "ON for C1 and C2 if either has median eos_pad_fraction > 0.3 with the flag off",
+  "nan_rows": 0,
+  "gate1": {
+    "datasets": {
+      "boolq": {
+        "n": 20,
+        "accuracy": 0.8,
+        "chance": 0.5,
+        "beats_chance_by_10_points": true
+      },
+      "strategyqa": {
+        "n": 20,
+        "accuracy": 0.45,
+        "chance": 0.5,
+        "beats_chance_by_10_points": false
+      },
+      "arc_c": {
+        "n": 20,
+        "accuracy": 0.9,
+        "chance": 0.25,
+        "beats_chance_by_10_points": true
+      },
+      "jagged": {
+        "n": 20,
+        "accuracy": 0.55,
+        "chance": 0.36666666666666664,
+        "beats_chance_by_10_points": true
+      }
+    },
+    "median_off_label_mass": 0.016368746757507324
+  },
+  "passed": true
+}

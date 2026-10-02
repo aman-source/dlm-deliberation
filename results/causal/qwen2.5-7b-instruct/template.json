@@ -1,0 +1,11 @@
+{
+  "template": "v3e",
+  "prefix": "The answer is",
+  "median_off_label_mass": 0.05649438500404358,
+  "candidates": {
+    "v3e": 0.05649438500404358,
+    "v1e": 0.9998995065689087
+  },
+  "gate_passed": true,
+  "rule": "lowest median C0 off_label_mass on 20 smoke items per dataset; gate < 0.5"
+}

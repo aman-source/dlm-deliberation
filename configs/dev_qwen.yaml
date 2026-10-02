@@ -1,0 +1,24 @@
+# Qwen3-8B C0 baseline for phase dev (protocol v1.1). Run from .venv-qwen (transformers >= 4.51,
+# same AMI torch). Reads the next token after "The answer is" with enable_thinking=False.
+seed: 1234
+phase: dev
+split: dev
+batch_size: 1
+dtype: bfloat16
+anytime_shortcut: off
+suppress_eos_in_scratch: protocol
+device_budget_hours: null
+datasets:
+  - boolq
+  - strategyqa
+  - arc_c
+  - jagged
+models:
+  - name: qwen3-8b
+    hf_id: Qwen/Qwen3-8B
+    kind: causal
+    conditions: ["C0"]
+cells:
+  - condition: C0
+    S: 0
+    T: null

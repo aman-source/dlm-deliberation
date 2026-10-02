@@ -1,0 +1,10 @@
+{
+  "n": 50,
+  "argmax_agreement": 0.9,
+  "ece_native_T4": 0.1981763768196106,
+  "ece_T16_step4": 0.2253164768218994,
+  "ece_abs_diff": 0.02714010000228881,
+  "passed": false,
+  "shortcut_enabled": false,
+  "rule": "agreement >= 0.95 and absolute ECE difference < 0.02"
+}

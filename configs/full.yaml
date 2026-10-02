@@ -1,0 +1,63 @@
+seed: 1234
+phase: test
+split: test
+batch_size: 1  # protocol v1.1: batch size 1 for every run
+dtype: bfloat16
+anytime_shortcut: auto
+# protocol v1.1: main setting chosen by the re-smoke rule (results/protocol_v1_1.json)
+suppress_eos_in_scratch: protocol
+device_budget_hours: null
+datasets:
+  - boolq
+  - strategyqa
+  - arc_c
+  - jagged
+# Qwen3-8B baseline runs separately (configs/full_qwen.yaml, .venv-qwen): transformers 4.46.3,
+# pinned for LLaDA's remote code, does not support the Qwen3 architecture.
+models:
+  - name: llada-8b-instruct
+    hf_id: GSAI-ML/LLaDA-8B-Instruct
+    revision: 08b83a6feb34df1a6011b80c3c00c7563e963b07
+    kind: masked
+    mask_id: 126336
+    expected_mask_token: "<|mdm_mask|>"
+cells:
+  - condition: C0
+    S: 0
+    T: null
+  - condition: C1
+    S: 32
+    T: 1
+  - condition: C1
+    S: 32
+    T: 4
+  - condition: C1
+    S: 32
+    T: 16
+  - condition: C1
+    S: 128
+    T: 1
+  - condition: C1
+    S: 128
+    T: 4
+  - condition: C1
+    S: 128
+    T: 16
+  - condition: C2
+    S: 32
+    T: 1
+  - condition: C2
+    S: 32
+    T: 4
+  - condition: C2
+    S: 32
+    T: 16
+  - condition: C2
+    S: 128
+    T: 1
+  - condition: C2
+    S: 128
+    T: 4
+  - condition: C2
+    S: 128
+    T: 16

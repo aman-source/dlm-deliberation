@@ -1,0 +1,30 @@
+# v1.3 (exploratory) Dream template check on the same 20-per-dataset smoke items; Gate 1 rule.
+# Run from a separate checkout (~/dlm-dream) so Dream's template/dev_fits never touch LLaDA's.
+seed: 1234
+phase: resmoke
+split: dev
+smoke_n: 20
+batch_size: 1
+dtype: bfloat16
+anytime_shortcut: off
+suppress_eos_in_scratch: false
+resmoke_suppress_rule: false
+template_candidates: [v3e_dream, v1e_dream]
+device_budget_hours: null
+datasets:
+  - boolq
+  - strategyqa
+  - arc_c
+  - jagged
+models:
+  - name: dream-v0-instruct-7b
+    hf_id: Dream-org/Dream-v0-Instruct-7B
+    revision: 05334cb9faaf763692dcf9d8737c642be2b2a6ae
+    kind: masked
+    mask_id: 151666
+    expected_mask_token: "<|mask|>"
+    logit_shift: true
+cells:
+  - {condition: C0, S: 0, T: null}
+  - {condition: C1, S: 32, T: 4}
+  - {condition: C2, S: 32, T: 4}

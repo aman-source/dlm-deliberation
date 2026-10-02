@@ -1,0 +1,44 @@
+{
+  "per_length": {
+    "p50": {
+      "target_prompt_tokens": 98,
+      "prompt_tokens": 98,
+      "item_id": "arc-MCAS_2010_5_11984",
+      "seconds_by_s": {
+        "0": 0.08104323539999995,
+        "32": 0.08599560910000151,
+        "128": 0.10678215825000166
+      },
+      "seq_len_by_s": {
+        "0": 101,
+        "32": 134,
+        "128": 230
+      }
+    },
+    "p90": {
+      "target_prompt_tokens": 204,
+      "prompt_tokens": 204,
+      "item_id": "boolq-039517976ac6",
+      "seconds_by_s": {
+        "0": 0.10337195109999868,
+        "32": 0.10957163825000009,
+        "128": 0.15032298870000033
+      },
+      "seq_len_by_s": {
+        "0": 207,
+        "32": 240,
+        "128": 336
+      }
+    }
+  },
+  "passes_per_item_by_s": {
+    "0": 1,
+    "32": 48,
+    "128": 48
+  },
+  "projection_basis": "p90",
+  "warmup": 3,
+  "measured_passes": 20,
+  "device": "cuda",
+  "dtype": "bfloat16"
+}

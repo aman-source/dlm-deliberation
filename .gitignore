@@ -1,0 +1,13 @@
+.venv/
+.venv-qwen/
+__pycache__/
+*.pyc
+.cache/
+.hf-cache/
+.torch-constraint.txt
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+paper/*.bbl
+paper/*.pdf

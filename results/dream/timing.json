@@ -1,0 +1,44 @@
+{
+  "per_length": {
+    "p50": {
+      "target_prompt_tokens": 108,
+      "prompt_tokens": 108,
+      "item_id": "arc-ACTAAP_2014_7_5",
+      "seconds_by_s": {
+        "0": 0.07669913644995177,
+        "32": 0.08539870585000245,
+        "128": 0.10015176275001067
+      },
+      "seq_len_by_s": {
+        "0": 113,
+        "32": 153,
+        "128": 249
+      }
+    },
+    "p90": {
+      "target_prompt_tokens": 212,
+      "prompt_tokens": 212,
+      "item_id": "boolq-11f4ead2419b",
+      "seconds_by_s": {
+        "0": 0.09697015174997432,
+        "32": 0.12057349939996129,
+        "128": 0.13317512754993005
+      },
+      "seq_len_by_s": {
+        "0": 217,
+        "32": 257,
+        "128": 353
+      }
+    }
+  },
+  "passes_per_item_by_s": {
+    "0": 1,
+    "32": 48,
+    "128": 48
+  },
+  "projection_basis": "p90",
+  "warmup": 3,
+  "measured_passes": 20,
+  "device": "cuda",
+  "dtype": "bfloat16"
+}
