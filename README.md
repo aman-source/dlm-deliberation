@@ -1,7 +1,7 @@
 # Thinking Costs Calibration in Diffusion Decision Models: code and data
 
 Code, frozen data splits, per-item outputs, and analysis scripts for the paper
-*Thinking Costs Calibration in Diffusion Decision Models* (Shaik Aman, Jeykumar Chinnathambi).
+*Thinking Costs Calibration in Diffusion Decision Models* (Shaik Aman, Jeyakumar Chinnathambi).
 The paper source is in `paper/`.
 
 ## Contents
